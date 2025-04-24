@@ -1,0 +1,12 @@
+baseURL = 'https://maiboii.github.io'
+languageCode = 'en-us'
+title = 'MaiBoii'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts =false
+buildFuture = false
+buildExpired = false
+
+
+enableEmoji = true
