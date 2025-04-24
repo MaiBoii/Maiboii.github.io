@@ -1,6 +1,7 @@
 baseURL = 'https://maiboii.github.io'
 languageCode = 'en-us'
 title = 'MaiBoii'
+paginate= 5
 theme = 'PaperMod'
 
 enableRobotsTXT = true
