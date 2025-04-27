@@ -1,18 +1,16 @@
 baseURL = 'https://maiboii.github.io'
 languageCode = 'en-us'
 title = 'MaiBoii'
-paginate= 5
 theme = 'PaperMod'
 
+enableInlineShortcodes = true
 enableRobotsTXT = true
-buildDrafts =false
+buildDrafts = false
 buildFuture = false
 buildExpired = false
-
-
 enableEmoji = true
-
 pygmentsUseClasses = true
+
 
 [markup.highlight]
 noClasses = false

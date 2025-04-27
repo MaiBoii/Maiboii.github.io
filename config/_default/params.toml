@@ -5,7 +5,6 @@ keywords= ['Blog', 'Portfolio', 'PaperMod']
 author= 'MaiBoii'
 DateFormat= "January 2, 2006"
 
-
 defaultTheme= 'light'
 disableThemeToggle= false
 ShowReadingTime = true
@@ -25,4 +24,14 @@ showtoc = true
 tocopen = true
 mainsections = ["page", "post", "archive", "search"]
 
+[homeInfoParams]
+Title = "MaiBoii's TIL"
+Content = "공부한거 정리하고 번역도 하는 곳"
 
+[[socialIcons]]
+name = "github"
+title = "My Github"
+url = "https://github.com/MaiBoii"
+
+
+custom_css = ["css/main.css"]
