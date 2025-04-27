@@ -26,9 +26,6 @@ unsafe = true
 startLevel = 1
 endLevel = 3
 
-[permalinks]
-post = "/blog/:slugorfilename/"
-
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
