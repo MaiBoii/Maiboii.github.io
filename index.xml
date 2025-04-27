@@ -10,9 +10,9 @@
     <atom:link href="https://maiboii.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>온라인 익명성을 위한 히치하이커 (KR)</title>
-      <link>https://maiboii.github.io/blog/intro/</link>
+      <link>https://maiboii.github.io/post/intro/</link>
       <pubDate>Sun, 27 Apr 2025 11:20:55 +0900</pubDate>
-      <guid>https://maiboii.github.io/blog/intro/</guid>
+      <guid>https://maiboii.github.io/post/intro/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://maiboii.github.io/css/main.css&#34;&gt;
 &lt;img src=&#34;https://maiboii.github.io/images/profile.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
 &lt;p&gt;이 가이드는 다양한 방법으로 읽을 수 있어.&lt;/p&gt;
@@ -36,9 +36,9 @@
     </item>
     <item>
       <title>첫_글</title>
-      <link>https://maiboii.github.io/blog/%EC%B2%AB_%EA%B8%80/</link>
+      <link>https://maiboii.github.io/post/%EC%B2%AB_%EA%B8%80/</link>
       <pubDate>Wed, 23 Apr 2025 12:23:49 +0900</pubDate>
-      <guid>https://maiboii.github.io/blog/%EC%B2%AB_%EA%B8%80/</guid>
+      <guid>https://maiboii.github.io/post/%EC%B2%AB_%EA%B8%80/</guid>
       <description>&lt;p&gt;아무거나 나오는지&lt;/p&gt;
 &lt;p&gt;으르르릉&lt;/p&gt;
 &lt;h3 id=&#34;아무거나&#34;&gt;아무거나&lt;/h3&gt;</description>
