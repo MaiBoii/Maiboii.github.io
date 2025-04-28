@@ -4,10 +4,11 @@ date = '2025-04-27T11:20:55+09:00'
 draft = false
 
 +++
-<link rel="stylesheet" href="/css/main.css">
 <p align="center">
 <img src="/images/profile.png" alt="Image Alt Text" class="center-image" />
 </p>
+
+
 
 이 가이드는 다양한 방법으로 읽을 수 있어.
 
@@ -36,7 +37,7 @@ draft = false
 
 해당 가이드를
 
-- 어떤 종류의 봇 계정 생성하지 말 것.
+- 어떤 종류의 봇 계정이든 생성하는데 사용하지 말 것.
 - 다른 사람의 사칭 계정 생성(예: 신원 도용)에 사용하지 말 것.
 - 악의적인 행위자가 비윤리적, 범죄적 또는 불법적인 활동(예: 트롤링, 스토킹, 허위 정보, 잘못된 정보, 괴롭힘, 왕따, 사기)을 수행하도록 돕는 행위에 사용하지 말 것.
 - 미성년자는 보지 말 것.
@@ -48,27 +49,764 @@ draft = false
 3. 완벽한 사람은 없으니 이 가이드에 잘못되었거나 오래된 정보가 있을 수 있어.
 4. 사용자마다 처한 상황이 다르니 이 가이드의 업데이트된 버전을 정기적으로 확인하길 바래.
 
-#### 이 가이드 한 줄 요약
+**이 가이드 한 줄 요약**
 
->**: "엿 같은 게임을 이기는 유일한 방법은 플레이하지 않는 것이다."**
+>**"엿 같은 게임을 이기는 유일한 방법은 플레이하지 않는 것이다."**
 >
-> — <cite>Rob Pike[^1]</cite>
+> — *<cite>WarGames(1983)[^4]</cite>*
 
 
 
-가명이나 연예인, 브랜드 이름으로 SNS 계정을 만드는 것은 쉬워. 그리고 대부분의 사용 사례에서 이 정도면 사실상 제 2의 조지 오웰 급으로 신분을 보호하기에 충분해. 페이스북/인스타그램/트위터/링크드인/틱톡/스냅챗/레딧/...에서 가명을 사용하는 사람들이 많지만, 대부분은 익명이 아니기 때문에 지역 경찰관, 오픈 소스 정보(OSINT5) 커뮤니티 내의 임의의 사람들, 디시인사이드 시간 빌게이츠들에 의해 쉽게 실제 신원을 추적당할 수 있어.
+가명이나 연예인, 브랜드 이름으로 SNS 계정을 만드는 것은 쉬워. 그리고 대부분의 사용 사례에서 이 정도면 사실상 제 2의 조지 오웰 급으로 신분을 보호하기에 충분해. 페이스북/인스타그램/트위터/링크드인/틱톡/스냅챗/레딧 등에서 가명을 사용하는 사람들이 많지만, 대부분은 익명이 아니기 때문에 지역 경찰관, 오픈 소스 정보(OSINT5) 커뮤니티 내의 임의의 사람들, 디시인사이드 시간 빌게이츠들에 의해 쉽게 신원을 추적당할 수 있어.
 
 
-대부분의 범죄자 및 시간 빌게이츠들은 기술에 능숙하지 않기 때문에 쉽게 신원을 파악할 수 있다는 점은 좋은 점이지. 하지만 대부분의 정치적 반체제 인사, 인권 운동가, 내부 고발자 역시 쉽게 추적될 수 있다는 점에서 끔찍한 일이기도 해.
+대부분의 범죄자 및 시간 빌게이츠들이 기술에 능숙하지 않기 때문에 쉽게 신원을 파악할 수 있다는 건 좋은 점이지. 하지만 대부분의 정치적 반체제 인사, 인권 운동가, 내부 고발자 역시 쉽게 추적당할 수 있다는 점에서 나쁜 일이기도 해.
 
 
-이 가이드는 다양한 익명화 기법, 추적 기법, 신원 확인 기법, 소셜 미디어 계정을 포함한 온라인 익명 신원을 합리적이고 진정으로 안전하게 만들고 유지하기 위한 선택적 지침을 소개하는 것을 목표로 해. 여기에는 개인정보 보호 친화적인 플랫폼뿐만 아니라 주류 플랫폼도 포함돼.
+이 가이드는 다양한 익명화 기법, 추적 기법, 신원 확인 기법, 소셜 미디어 계정을 포함한 온라인 익명 신원을 합리적이고 안전하게 만들고, 이를 유지하기 위한 선택적 지침을 소개하는 것을 목표로 해. 여기에는 개인정보 보호 친화적인 플랫폼뿐만 아니라 주류 플랫폼도 포함돼.
 
-이 가이드의 목적은 개인정보 보호뿐만 아니라 익명성이라는 점을 이해하는 것이 중요하지만, 여기에서 찾을 수 있는 많은 지침은 익명성에 관심이 없더라도 개인정보 보호 및 보안을 개선하는 데 도움이 될 거야! 개인정보 보호, 보안 및 익명성을 위해 사용되는 기술과 도구에는 중요한 중복 사항이 있지만 어느 시점에서는 서로 달라.
+이 가이드의 목적은 프라이버시뿐만 아니라 익명성이라는 점을 이해하는 것이 중요하지만, 여기에서 찾을 수 있는 많은 지침은 익명성에 관심이 없더라도 프라이버시 및 보안을 개선하는 데 도움이 될 거야! 개인정보 보호, 보안 및 익명성을 위해 사용되는 기술과 도구에는 공통점이 있지만 어느 시점에서는 서로 달라:
+
+
+-   **프라이버시는 사람들이 내가 누구인지는 알지만 내가 무엇을 하고 있는지는 알지 못하는 것!.**
+
+-   **익명성은 사람들이 내가 무엇을 하고 있는지는 알지만 내가 누구인지는 모르는 것!** [^8]
+
+<p align="center">
+<img src="/images/image01.png" alt="Image Alt Text" class="center-image" />
+</p>
+
+이미지 출처 [^9]
+
+이 가이드가 미국 국가안보국, 러시아 연방보안국, 마크 주커버그, 모사드가 널 찾으려 할 때도 과연 숨는데 도움이 될까? 아마도 아닐걸. 모사드는 "모사드스러운 일"을 할 거고, 아무리 숨으려고 노력해도 어떻게든 널 찾아내겠지.
+
+더 나아가기 전에 너만의 위협 모델을 고려해야할거야.
+
+<p align="center">
+<img src="/images/1234.png" alt="Image Alt Text" />
+</p>
+
+(Illustration by Randall Munroe, xkcd.com, licensed under CC BY-NC 2.5)
+
+그럼 이 가이드가 NSA 도구 상자에 액세스할 수 없는 Bellingcat[^13], 4chan의 Doxing[^14] 트롤[^15]과 같은 OSINT 연구자들로부터 개인정보를 보호하는 정도에는 도움이 될까? 아마 그럴 가능성이 높아. 하지만 4chan까지는 잘 모르겠네.
+
+다음은 이 가이드의 기본적인 단순화된 위협 모델이야.
+
+<p align="center">
+<img src="/images/image40.png" alt="Image Alt Text" />
+</p>
+
+(참고로 “마법의 부적/잠수함/자신의 죽음을 가장하라”는 농담은 제임스 미킨스의 훌륭한 글 “This World of Ours”(2014)에서 인용했음.[^10])
+
+면책 조항: 농담은 제쳐두고(마법의 단어). 물론 이러한 고도로 숙련된 해커의 공격을 완화할 수 있는 고급 기법도 있지만 이 가이드의 범위를 벗어나. 그러니 이 가이드에서 나오는 위협 모델의 한계를 이해하는 것이 매우 중요해. 따라서 이러 고급 기술은 너무 복잡하고 이 가이드의 대상 독자에게는 기대할 수 없는 매우 높은 지식과 기술 수준을 필요로 하니 굳이 이 글 분량을 두 배로 늘리진 않을 거야.
+
+그럼 이 가이드 무쓸모 아님? 이라 생각할 수도 있지만 다음과 같은 많은 자료가 있어.
+
+- 온라인 검열 피하기
+- 온라인 억압 피하기
+- 온라인 스토킹, 신상 털기 및 사이버 불링 피하기
+- 정부의 불법적인 온라인 감시 피하기
+- 익명의 온라인 내부 고발
+- 익명 온라인 활동
+- 익명 온라인 저널리즘
+- 익명 온라인 법률 행위
+- 익명의 온라인 학술 활동(예: 해당 리소스가 차단된 과학 연구에 액세스하는 경우)
+
+이 가이드는 온라인 익명성과 개인정보 보호에 대한 큰 그림을 고려할 만큼 지식이 부족할 수 있는 선의의 개인 사용자들을 위해 작성되었어.
+
+
+
+**마지막으로, 이 가이드는 꼭 본인의 책임 하에 사용하도록 해. 이 가이드의 내용은 법적 조언이 아니니 사용하기 전에 네가 사는 국가의 법률을 준수하는지 확인해야 해. (IANAL**[^24]**). "신뢰하되 확인하라."**[^25] **모든 정보를 직접 확인하거나 절대 믿지 말고 항상 확인하도록해.**[^391]**. 이 가이드의 모든 정보를 스스로 숙지하고 의심스러운 부분이 있으면 주저하지 말고 외부 출처를 통해 확인하는 것이 좋아. 우리는 피드백이라면 얼마든지 환영하니까 실수를 발견하면 언제든지 제보해줘. 가혹하지만 건전한 비판도 포함이니 가능한 한 빨리 필요한 수정이 이루어질 수 있도록 하도록 할게.**
+
+# 온라인에서 너를 특정할 수 있게 하는 요소들
+
+브라우저 쿠키와 광고, 이메일, 휴대폰 번호 외의 다양한 방법으로도 사용자를 추적할 수 있어. 모사드나 NSA/FSB만이 널 찾아낼 수 있다고 생각한다면 오산이야.
+
+먼저 개인정보 보호 및 보안에 관한 일반적인 리소스를 참고하여 기본적인 사항을 알아보도록 해:
+
+-   The New Oil\*: <https://thenewoil.org/> <sup>[[Archive.org]](https://web.archive.org/web/https://thenewoil.org/)</sup>
+
+-   기술 관련 동영상 \*: <https://www.youtube.com/c/Techlore> <sup>[[Invidious]](https://yewtu.be/c/Techlore)</sup>
+
+-   개인정보 보호 가이드: <https://privacyguides.org/> <sup>[[Archive.org]](https://web.archive.org/web/https://privacyguides.org/)</sup>
+
+-   개인정보 보호 도구\*: <https://privacytools.io> <sup>[[Archive.org]](https://web.archive.org/web/https://privacytools.io/)</sup>
+
+*이러한 웹사이트에는 제휴/후원 콘텐츠 및/또는 상품이 포함될 수 있음. 본 가이드는 어떤 상업적 단체도 보증하지 않으며 어떤 방식으로도 후원하지 않음.*
+
+이 가이드를 건너뛰었다면, 계속 진행하기 전에 Techlore Go 시크릿 프로젝트(https://github.com/techlore-official/go-incognito [[Archive.org](http://archive.org/)])의 YouTube 재생 목록(https://www.youtube.com/playlist?list=PL3KeV6Ui_4CayDGHw64OFXEPHgXLkrtJO [Invidious])을 참고하길 바람.
+
+**다음은 온라인에서 너를 특정할 수 있게 하는 요소들이야:**
+
+## 너의 네트워크
+### 너의 IP 주소:
+
+**면책 조항: 이 단락은 네 로컬 네트워크 IP가 아니라 인터넷에서 공개적으로 드러나는 IP에 관한 내용이야.**
+
+너의 IP 주소[^26]는 추적할 수 있는 가장 잘 알려지고 명백한 방법이야. 이 IP는 네가 사용하는 원래 IP 주소야. 이 주소는 네가 인터넷에 연결하는 곳이야. 보통 이 IP는 ISP(인터넷 서비스 제공자)(xDSL, 모바일, 케이블, 광섬유, 카페, 바, 친구, 이웃 등)에서 제공해. 대부분의 나라에서는 데이터 보유 규정[^27]이 있어서 특정 시간/날짜에 누가 어떤 IP를 사용했는지 기록을 보관해야 해. ISP는 몇 년 후에도 특정 날짜와 시간에 어떤 IP가 사용되었는지 제3자에게 알릴 수 있어. 이 IP(원본 IP)가 어떤 이유로든 유출되면, 그걸 통해 직접적으로 추적당할 수 있어. 많은 나라에서는 제공자에게 신원 확인을 제공하지 않으면 인터넷을 사용할 수 없게 돼(주소, 신분증, 실명, 이메일 등).
+
+말할 필요도 없이 대부분의 플랫폼(소셜 네트워크 등)은 가입하거나 로그인할 때 사용한 IP 주소를 기록해(때로는 무기한으로).
+
+다음은 지금 네 **공개 IP**에 대한 정보를 찾을 수 있는 온라인 리소스들이야:
+
+- **너의 IP 찾기:**
+    - <https://resolve.rs/>
+    - <https://www.dnsleaktest.com/> (추가: DNS 유출 여부도 확인)
+
+- **IP의 위치 찾기 또는 다른 IP의 위치 찾기:**
+    - <https://resolve.rs/ip/geolocation.html>
+
+- **IP가 "의심스러운지" (블랙리스트에 있는지) 또는 공공 리소스에서 "파일"을 다운로드했는지 찾기:**
+    - <https://mxtoolbox.com/blacklists.aspx>
+    - <https://www.virustotal.com/gui/home/search>
+    - <https://iknowwhatyoudownload.com> (주의: 아무런 중요한 정보가 나타나지 않을 수 있고 데이터 소스가 제한적이야. 그냥 재미로 보는 게 좋을 거야.)
+
+- **IP 등록 정보 (대부분 ISP 또는 연결된 ISP가 누구인지 알 수 있음):**
+    - <https://whois.domaintools.com/>
+
+- **IP에서 열린 서비스나 장치 확인 (특히 스마트 장치가 누출되었는지 확인):**
+    - <https://www.shodan.io/host/185.220.101.134> (IP를 네 IP로 바꾸거나 검색창에서 변경, 이 예시 IP는 Tor Exit 노드야)
+
+- **IP 확인하는 다양한 도구들(차단 목록 확인기 등):**
+    - <https://browserleaks.com/ip>
+    - <https://www.whatismyip.com>
+
+- **Tor를 통해 연결되었는지 확인하고 싶어?**
+    - <https://check.torproject.org>
+
+이런 이유들로, 네가 원본 IP(신원과 연결된)를 숨기거나 다양한 방법을 결합해서 이를 숨겨야 해:
+
+- 공공 Wi-Fi 서비스 사용(무료).
+- Tor 익명성 네트워크[^28] 사용(무료).
+- VPN[^29] 서비스 사용(현금을 사용해서 익명으로 결제하거나 모네로로 결제).
+
+하지만 아쉽게도, 이 방법들은 완벽하지 않아서 성능 문제[^30]가 생길 수 있다는 점을 기억해야 해.
+
+이 모든 것들은 이 가이드에서 나중에 더 자세히 설명할 거야.
+
+
+### 네 DNS와 IP 요청들
+DNS는 "Domain Name System"[^31]의 약자로, 브라우저(및 기타 앱)가 서비스의 IP 주소를 찾을 수 있도록 도와주는 서비스야. 이는 거대한 "연락처 목록"(옛날 사람들을 위한 전화번호부)처럼 작동하는데, 이름을 물어보면 그 번호를 돌려주는 방식이야. 단, 여기서 "번호"는 IP 주소지.
+
+브라우저가 www.google.com 같은 서비스에 접근하고자 할 때마다, 브라우저(Chrome이나 Firefox)는 DNS 서비스에 질의를 보내서 구글 웹 서버들의 IP 주소를 찾게 돼.
+
+DNS에 대해 더 잘 이해할 수 있도록 시각적으로 설명한 영상이 있어: <https://www.youtube.com/watch?v=vrxwXXytEuI> <sup>[[Invidious]](https://yewtu.be/watch?v=vrxwXXytEuI)</sup>
+
+보통 DNS 서비스는 네가 연결하는 네트워크나 ISP에서 제공해. 이 DNS 서비스는 데이터 보유 규정의 영향을 받을 수 있고, 다른 이유들(예: 광고 목적을 위한 데이터 수집)로 로그를 저장할 수도 있어. 그래서 ISP는 네가 온라인에서 한 모든 활동을 로그에서 볼 수 있고, 그 로그를 악의적인 사람에게 제공할 수도 있어. 이와 함께 많은 공격자들은 DNS 차단을 통해 검열이나 부모 통제를 시행할 수 있어[^32]. 제공되는 DNS 서버들은 어떤 웹사이트에 대해 다른 주소(예: thepiratebay.org를 정부 웹사이트로 리디렉션)로 돌려줄 수 있어. 이런 차단은 전 세계에서 특정 사이트에 대해 광범위하게 적용되고 있어[^33].
+
+사설 DNS 서비스나 자신의 DNS 서비스를 사용하는 것이 이 문제를 완화시킬 수 있지만, 또 다른 문제는 대부분의 DNS 요청들이 기본적으로 여전히 평문(암호화되지 않음)으로 네트워크를 통해 전송된다는 거야. 예를 들어, PornHub를 인코그니토 모드에서, HTTPS를 사용하고, 사설 DNS 서비스를 사용한다고 해도, 네 브라우저는 여전히 "www.pornhub.com의 IP 주소가 뭐야?"라는 평문 DNS 요청을 DNS 서버에 보낼 가능성이 매우 높아.
+
+암호화되지 않아서, ISP나 다른 공격자는 이 요청을 가로챌 수 있고(Man-in-the-middle 공격[^97]), 네가 무엇을 찾고 있는지 알게 돼. 이때 ISP는 네가 사용하는 DNS가 사설 DNS라 해도 응답을 조작할 수도 있어. 이런 방식으로 사설 DNS 서비스는 무용지물이 될 수 있어.
+
+또한 많은 장치나 앱들은 하드코딩된 DNS 서버를 사용해, 네가 설정한 시스템 설정을 우회할 수 있어. 예를 들어, 대부분의 스마트 TV(약 70%)와 게임 콘솔의 상당 부분(약 46%)이 그렇고[^34], 이 장치들에서는 하드코딩된 DNS 서버를 사용하지 않도록 강제해야 해[^35]. 이걸 강제하지 않으면 제대로 작동하지 않을 수 있어.
+
+이 문제의 해결책으로는 DoH(DNS over HTTPS[^36])나 DoT(DNS over TLS[^37])를 사용하는 암호화된 DNS를 사용하는 거야. 이 방법은 Pi-hole[^38] 같은 로컬 솔루션을 통해 사설 DNS 서버를 호스팅하거나, nextdns.io 같은 원격 서비스, 또는 VPN 제공자나 Tor 네트워크에서 제공하는 서비스를 사용할 수 있어. 이를 통해 ISP나 중간자가 네 요청을 엿보는 걸 방지할 수 있어... 물론 그게 확실하게 되지는 않겠지만.
+
+작은 면책 조항: **이 가이드는 기술적 이해를 위해 Cloudflare 서비스를 언급할 때 있지만, Cloudflare 서비스를 반드시 추천하거나 지지하는 것은 아니야.**
+
+불행히도, 대부분의 HTTPS 연결에 사용되는 TLS 프로토콜은 도메인 이름을 SNI[^39] 핸드쉐이크를 통해 다시 유출하게 돼(여기서 확인할 수 있어: <https://www.cloudflare.com/ssl/encrypted-sni/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.cloudflare.com/ssl/encrypted-sni/)</sup>). **이 가이드 작성 시점에서는 Firefox 기반 브라우저만 일부 웹사이트에서 ECH(Encrypted Client Hello)[^40] (이전에는 eSNI[^41])를 지원하고 있어. 이 기능은 HTTPS/DoH/TLS를 사용해서 모든 걸 암호화하고, DNS 요청을 제3자로부터 숨길 수 있게 해.** 하지만 이 기능은 기본적으로 활성화되어 있지 않아서 네가 직접 활성화해야 해.
+
+현재 브라우저 지원이 제한적이고, Cloudflare CDN 뒤에 있는 웹 서비스와 CDN만 ECH/eSNI를 지원해.[^43] 그래서 이 가이드가 작성될 당시에는 ECH와 eSNI가 대부분의 주요 플랫폼에서는 지원되지 않아:
+
+- 아마존 (AWS, Twitch 등)
+- 마이크로소프트 (Azure, OneDrive, Outlook, Office 365 등)
+- 구글 (Gmail, Google Cloud 등)
+- 애플 (iCloud, iMessage 등)
+- 레딧
+- 유튜브
+- 페이스북
+- 인스타그램
+- 트위터
+- 깃허브
+- ...
+
+러시아[^45]나 중국[^46] 같은 나라들은 ECH/eSNI 핸드쉐이크를 네트워크에서 차단할 수도 있어. 이건 검증되지 않았지만, 이런 나라들은 감시를 목적으로 ECH/eSNI를 차단해서 검열 우회를 막으려고 할 수 있어. 그래서 너가 HTTPS 연결을 시도할 때, 그 서비스가 뭘 보게 할지 허용하지 않으면 연결을 할 수 없을 수도 있어.
+
+## OCSP와 메타데이터 유출
+
+문제는 이게 다가 아니야. HTTPS TLS 검증의 일환으로 OCSP[^47]라는 프로토콜이 있는데, 이게 Firefox 기반 브라우저에서 사용되면서 네가 방문하는 웹사이트의 인증서 번호라는 메타데이터를 유출할 수 있어. 그러면 공격자가 그 번호를 통해 네가 방문하는 사이트를 쉽게 추적할 수 있어[^48]. 이 문제는 OCSP 스태플링[^49]을 사용해서 완화할 수 있어. 하지만 Firefox/Tor 브라우저에서는 이게 기본적으로 활성화되어 있지만 강제로 적용되진 않아서, 네가 방문하는 사이트도 이를 지원해야 해. 하지만 모든 사이트가 지원하는 건 아니야. 반면, 크로미움 기반 브라우저들은 CRLSets[^50][^51]라는 다른 시스템을 사용하는데, 이건 좀 더 나은 방법으로 평가돼.
+
+여기서 다양한 브라우저들이 OCSP를 어떻게 처리하는지 볼 수 있어: [SSL 블로그: 브라우저들이 폐기된 SSL/TLS 인증서를 어떻게 처리하는지](https://www.ssl.com/blogs/how-do-browsers-handle-revoked-ssl-tls-certificates/) [아카이브 링크](https://web.archive.org/web/https://www.ssl.com/blogs/how-do-browsers-handle-revoked-ssl-tls-certificates/)
+
+## Firefox 기반 브라우저에서 발생할 수 있는 문제
+
+Firefox 기반 브라우저에서 발생할 수 있는 문제의 예시를 보여주는 이미지가 있어:
+
+<p align="center">
+<img src="/images/image05.png" alt="Firefox OCSP 문제"/>
+</p>
+
+만약 ECH/eSNI 지원과 OCSP 스태플링을 사용하는 커스텀 암호화 DNS 서버(DoH 또는 DoT)를 사용한다고 해도, 그게 충분하지 않을 수도 있어. 트래픽 분석 연구[^52]에 따르면, 여전히 공격자가 요청을 추적하고 차단하는 것이 가능하다고 해. 최근 연구에서는 Tor를 통한 DNS가 효율적인 DNS 프라이버시를 제공했다고 했지만, 그것도 다른 방법으로 차단될 수 있다고 해 (자세한 건 [익명화된 Tor/VPN 트래픽](Your Anonymized Tor/VPN traffic:) 참고).
+
+Tor 숨겨진 DNS 서비스나 ODoH(Oblivious DNS over HTTPS[^53])를 사용해서 프라이버시/익명성을 더욱 강화할 수도 있어. 하지만 아쉽게도 현재로서는 Cloudflare만 이 방법을 제공하고 있어. ([숨겨진 리졸버 블로그](https://blog.cloudflare.com/welcome-hidden-resolver/), [Oblivious DNS 블로그](https://blog.cloudflare.com/oblivious-dns/))
+
+이 방법들은 꽤 안전한 기술적 옵션이지만, Cloudflare를 사용할지 말지는 윤리적인 선택이 될 수 있어 (몇몇 연구자들이 제기한 위험에도 불구하고).
+
+**참고:** Oblivious DNS는 위에서 언급한 연결 중 하나를 감청하는 적에게만 효과적이야. 전 세계적인 패시브 공격자(GPA)에게는 효과가 없어. GPA는 여러 개의 연결을 감청할 수 있기 때문이야.
+
+
+마지막으로 DoHoT라는 새로운 방법이 있는데, 이건 DNS over HTTPS over Tor의 약자야. 이를 사용하면 프라이버시/익명성을 더 강화할 수 있어. 만약 리눅스를 잘 다룬다면 이 방법을 고려해볼 수 있어. ([DoHoT GitHub](https://github.com/alecmuffett/dohot)) [아카이브 링크](https://web.archive.org/web/https://github.com/alecmuffett/dohot)
+
+이 가이드는 지금은 이 부분을 다루지 않지만, 가까운 미래에 다룰 수 있을지도 몰라.
+
+
+다음 이미지는 현재 우리가 알고 있는 DNS와 HTTPS 프라이버시의 상태를 보여줘:
+
+<p align="center">
+<img src="/images/image06.png" alt="DNS와 HTTPS 프라이버시 상태"/>
+</p>
+
+**일상적인 사용 (민감하지 않은 경우)**
+
+일상적인 사용에서는, Firefox 기반 브라우저만 ECH(구 eSNI)를 지원하고 있다는 걸 기억해. 그리고 ECH는 현재 Cloudflare CDN 뒤에서 호스팅되는 사이트에서만 유용해. 크롬 기반 브라우저를 선호한다면 (번역 같은 더 나은 통합 기능이 있어서), Brave를 사용하는 걸 추천할게. Brave는 모든 크롬 확장 프로그램을 지원하고, 크롬보다 훨씬 더 나은 프라이버시를 제공해.
+
+하지만 얘기가 끝나지 않아. 만약 DNS를 암호화하고 가능한 모든 완화책을 사용한다고 해도, 서버로의 간단한 IP 요청이 공격자에게 네가 방문하는 사이트를 알아차리게 할 수 있어. 왜냐하면 대부분의 웹사이트는 고유한 IP가 있기 때문이야. 그래서 공격자는 이미 알려진 사이트들의 IP를 가지고 데이터를 만들어서 네가 요청한 IP와 매칭시킬 수 있어. 이 방법으로는 사이트를 추측할 수 있는 경우가 많아. 즉, OCSP 스태플링, ECH/eSNI, 암호화된 DNS를 사용하더라도, 공격자는 여전히 네가 어떤 사이트를 방문하는지 추측할 수 있어.
+
+그래서 이 문제들을 최대한 해결하기 위해, 이 가이드는 두 가지 해결책을 추천할 거야: Tor와 VPN 위에 Tor를 겹쳐서 사용하는 멀티 레이어 솔루션(DNS over VPN over Tor 또는 DNS over Tor) 같은 방법. 다른 방법들도 설명하겠지만 (Tor over VPN, VPN만, No Tor/VPN 등) 덜 추천할 거야.
+
+
+### 네 RFID 지원 기기들
+
+**RFID**는 **무선 주파수 식별 (Radio-frequency identification)** 기술로,  
+비접촉 결제나 다양한 인증 시스템에 사용돼.  
+네 스마트폰도 이 기술을 지원하고, **NFC**를 통해 RFID 기반의 비접촉 결제 기능을 가지고 있어.  
+하지만 이런 기능들도 **추적**에 악용될 수 있어.
+
+너는 아마 아래의 RFID 지원 기기들을 항상 들고 다닐 거야:
+
+- 비접촉 결제 기능이 있는 **신용카드/체크카드**
+- **마트/가게의 멤버십 카드**
+- **교통카드**
+- **회사 출입증**
+- **자동차 키**
+- **국가 신분증**이나 **운전면허증**
+- **여권**
+- **물건/옷의 가격/도난방지 태그**
+- ...
+
+이런 것들은 원격 온라인 공격자가 바로 식별하는 데 사용되진 않지만, **대략적인 위치와 시간**만 알면  
+**수색 범위를 좁히는 데 사용될 수 있어**. 예를 들어, 가게에서 사람들이 RFID를 통과할 때  
+그 RFID 칩들을 몰래 스캔하고 기록할 수 있어. 가게는 멤버십 카드만 인식하려 했지만, 다른 RFID 카드들도 함께 스캔될 수 있지.  
+이렇게 수집된 데이터가 **네 신원과 연결되면 익명성**이 깨질 수 있어.
+
+이 문제를 해결하는 방법은:
+
+- **RFID 태그가 달린 물건을 들고 다니지 않거나,**
+- **파라데이 케이지(Faraday Cage)** 와 같은 방식으로 RFID 신호를 차단하는 거야.
+
+또는 RFID 차단 기능이 있는 **전문 지갑이나 파우치**를 사용할 수도 있어.  
+(요즘은 **Samsonite**와 같은 브랜드에서 이런 제품을 만들고 있어.)
+
+민감한 활동을 할 때는, **RFID 태그가 달린 물건을 아예 들고 다니지 않는 게 가장 안전해**.
+
+---
+
+### 추가 참고자료
+- [RFID 보안 이슈 위키](https://en.wikipedia.org/wiki/Radio-frequency_identification#Security_concerns)
+- [RFID 프라이버시 문제 위키](https://en.wikipedia.org/wiki/Radio-frequency_identification#Privacy)
+
+
+### 네 주변 와이파이랑 블루투스 기기 
+### 악성 와이파이 액세스 포인트
+### 트래픽 익명화
+토르와 VPN은 만병통치약이 아니야. 그동안 수년에 걸쳐 암호화된 토르 트래픽의 익명화를 해제하기 위한 많은 고급 기술이 개발되고 연구되었거든.[^68]. 이러한 기법의 대부분은 네트워크 트래픽을 어떤 식으로든 로그 또는 데이터 세트와 연관시키는 상관 관계 공격이야. 다음은 몇 가지 예시:
+### 오프라인 상태에서도 추적될 수 있는 일부 기기들
+액션/스파이/공상과학 영화나 드라마 같은 데서 주인공이 폰을 사용할 수 없도록 항상 배터리를 분리하는 장면을 본 적이 있지? 솔직히 대부분의 그게 과하다고 생각하곤 할거야. 하지만 안타깝게도 이제 적어도 일부 기기에서는 이런 일이 현실이 되고 있어.
+## 네 하드웨어 ID
+### 네 IMEI 및 IMSI
+### 네 와이파이나 이더넷 MAC 주소
+### 네 블루투스 MAC 주소
+## 네 CPU
+## 네 운영체제랑 앱 원격 서비스
+## 네 스마트 기기
+## 너 본인
+### 네 메타데이터 (Metadata)
+
+**메타데이터**란, 활동 내용 그 자체는 포함되지 않고, 그 활동에 대한 모든 정보야.  
+예를 들어, **"암 전문의에게 전화한 후, 그 다음에 가족과 친구들에게 전화를 걸었다"** 라는 정보를 알면, 그 대화 내용은 모르지만  
+**그 메타데이터만으로 대화의 내용을 추측할 수** 있어.
+
+이 메타데이터에는 **위치 정보**도 자주 포함돼. 이 정보는 스마트폰, 운영 체제(안드로이드/아이OS), 브라우저, 앱, 웹사이트 등을 통해 수집돼.  
+그래서, **여러 회사들이 네가 어디에 있는지 실시간으로 알고 있을 가능성**이 매우 높아. 스마트폰 덕분이지.
+
+이 위치 정보는 이미 여러 **법적 사건**에서 "지오펜싱 영장"의 일환으로 사용됐어.  
+**지오펜싱 영장**은 법 집행 기관이 회사들(구글, 애플 등)에 특정 시간에 특정 장소에 있었던 모든 기기들의 리스트를 요청할 수 있게 해주는 영장이야.  
+또한, 이 위치 데이터는 **개인 기업들이 군에 판매**하기도 해서 군은 이를 매우 편리하게 사용할 수 있어.  
+이러한 영장은 **법 집행 기관에서 널리 사용되고 있**어.
+
+**지오펜싱 영장을 경험하고 싶다면?**
+
+[여기](https://wigle.net/)에서 지오펜싱 영장이 어떻게 작용하는지 확인해볼 수 있어.
+
+### VPN 사용 시 메타데이터 추적
+이제 네가 **VPN**을 사용해서 IP를 숨긴다고 가정해보자.  
+그럼 소셜 미디어 플랫폼은 네가 **11월 4일 오전 8시부터 오후 1시까지** 그 VPN IP를 통해 활동한 걸 알 수 있어.  
+VPN 서비스는 **로그를 남기지 않는다**고 주장해서 그 VPN IP가 네 실제 IP로 추적되지 않는다고 해.  
+하지만, **네 인터넷 서비스 제공업체(ISP)**는 **11월 4일 오전 7시 30분부터 오후 2시까지** 그 VPN에 연결됐다는 것을 알 수 있어.  
+그렇지만 ISP는 네가 그 VPN으로 무엇을 했는지는 모른다고 해.
+
+그럼 중요한 질문이 생겨:  
+**어디선가 이 두 정보를 모두 갖고 있을 수 있는 사람이 있을까?**
+
+혹시 **에드워드 스노든**에 대해 들어본 적 있어?  
+지금이야, 그에 대해 구글 검색을 하고 **그의 책**을 읽을 때야.  
+또, **XKEYSCORE**, **MUSCULAR**, **SORM**, **Tempora**, **PRISM**에 대해서도 읽어보면 좋겠어.
+
+- **"우리는 메타데이터를 바탕으로 사람을 죽인다"**  
+- **IDF 트위터**: [IDF 트윗](https://twitter.com/idf/status/1125066395010699264)
+
+**추가 참고자료**
+- [스마트폰과 스마트 기기에 대한 경고 - Appendix N](#)
+
+## 네 디지털 발자국 (Digital Footprint)
+
+이 부분은 **"The Social Dilemma"** 다큐멘터리를 **넷플릭스에서 보는 게 제일 좋아**.  
+다큐멘터리에서 이 주제를 누구보다 잘 다뤘어.
+
+### 디지털 발자국에 포함되는 것들
+
+- **글을 쓰는 방식 (스타일로메트리)**  
+- **행동 양식**  
+- **클릭하는 방식**  
+- **브라우징 방식**  
+- **브라우저에서 사용하는 폰트**
+
+**지문 인식(Fingerprinting)** 은 사용자가 행동하는 방식을 통해 그 사람이 누구인지를 추측하는 방법이야.  
+예를 들어, 너는 **특정한 학문적인 단어**를 자주 쓰거나 **특정한 철자 실수**를 할 수도 있어.  
+이런 특징들은 **단순한 구글 검색**으로도 추적될 수 있어. 왜냐면, 5년 전에 **익명성이 떨어지는 레딧 계정**으로 비슷한 스타일로 글을 썼다면, 그 글을 기반으로 너를 알아낼 수 있기 때문이지.
+
+**검색 엔진**에 입력한 **단어**만으로도 authorities(당국)가 특정 사용자를 찾을 수 있어. 이제 당국은 **특정 키워드**를 검색엔진에 입력한 사용자에 대한 영장을 발부받을 수 있거든.
+
+### 소셜 미디어와 브라우저 추적
+
+**페이스북**이나 **구글** 같은 소셜 미디어 플랫폼은 한 걸음 더 나아가서, **브라우저에서 너의 행동을 기록**할 수 있어. 예를 들어, **Gmail**에서 이메일을 작성할 때, 그 내용을 **보내지 않아도 자동으로 저장**돼.  
+그리고 **클릭**이나 **커서 움직임**도 추적할 수 있어.
+
+이 모든 걸 실현하는 데 필요한 건 **브라우저에서 자바스크립트**만 켜져 있으면 돼. (대부분의 브라우저는 기본적으로 자바스크립트를 켜놓고 있어. **Tor 브라우저**도 마찬가지.)
+
+자바스크립트를 꺼두어도 **지문 인식**은 여전히 가능해.
+
+### 마케팅과 광고를 넘어서
+
+이 방법들은 주로 **마케팅**이나 **광고** 목적으로 사용되지만, **사용자를 지문 인식하는 데에도 유용**할 수 있어.  
+왜냐하면 **너의 행동은 고유하고, 시간이 지나면서 너를 다시 찾을 수 있는 단서가 되기 때문**이야.
+
+### IRL과 OSINT
+### 네 얼굴, 목소리, 생체 정보, 그리고 사진
+
+**"타인은 지옥이다."**  
+위에서 언급한 방법들을 모두 피하더라도, **얼굴 인식 기술**의 확산 덕분에 아직 벗어날 수 없어.
+
+**페이스북** 같은 회사들은 **고급 얼굴 인식 기술**을 **수년간 사용**해왔고, **위성 이미지**를 사용해서 전 세계의 **사람들**에 대한 지도를 만들기도 했어.  
+이러한 기술의 발전은 수년에 걸쳐 이루어졌고, 이제 우리는 **"우리는 우리의 얼굴을 잃었다"** 라고 말할 수 있는 수준에 이르렀어.
+
+만약 **관광지**에서 걷고 있다면, 너는 **몇 분 안에** 누군가의 **셀카**에 등장할 수 있어.  
+그 사람은 그 셀카를 **트위터, 구글 포토, 인스타그램, 페이스북, 스냅챗** 등의 플랫폼에 **업로드**할 수 있어.  
+이 플랫폼들은 **얼굴 인식 알고리즘**을 그 사진에 적용해서 **더 나은 태그 지정**이나 **사진 라이브러리 정리**를 용이하게 하려 해.
+
+뿐만 아니라, 같은 사진은 **정확한 타임스탬프**와 대부분 **촬영 위치**도 제공해.  
+타임스탬프와 위치 정보가 제공되지 않더라도, 다른 방법으로 이를 추정할 수 있어.
+
+만약 이 기술을 직접 실험해보고 싶다면 직접 시도해볼 수 있는 몇 가지 리소스가 있어:
+
+### 보행 인식 및 다른 장거리 생체 인식 기술
+카메라를 직접 안 쳐다봐도, 요즘 시스템들은 네가 누군지 알아낼 수 있어.
+감정 상태도 읽고, 걸음걸이도 분석하고, 입 모양도 읽고, 눈동자 움직임도 분석하고, 심지어 네 정치 성향까지 추측할 수 있대.
+
+보통 사람들이 생각하는 거랑 달리, 요즘 보행 인식 기술은 걷는 방식을 살짝 바꾼다고 속지 않아.
+(예를 들면 신발에 뭔가 넣어서 불편하게 걷는 식으로는 안 된다는 거지.)
+이 기술들은 그냥 걷는 폼만 보는 게 아니라, 네 몸 전체 근육이 움직이는 패턴을 분석하거든.
+그래서 제대로 속이려면, 근육 움직임 자체를 가릴 수 있는 헐렁한 옷을 입어야 해.
+
+그리고 너를 식별할 수 있는 다른 특징들도 있는데, 귓불(earlobes)이 지문보다 더 구별하기 쉽대.
+게다가 두개골 모양도 식별 포인트가 될 수 있어서, 발라클라바 같은 부드러운 천으로 얼굴을 가려도 소용이 별로 없어.
+오히려 그런 거 쓰면 두개골 모양이 더 도드라져서, 더 수상해 보인대.
+
+### 피싱(Phishing)과 사회공학(Social Engineering)
+피싱은 사회공학 공격의 한 종류야. 공격자가 다른 사람이나 서비스를 가장해서, 네 정보를 빼내려고 하는 거지.
+
+가장 흔한 경우는 공격자가 중간자 공격(man-in-the-middle attack) 이나, 가짜 이메일이나 전화를 써서 네 서비스 로그인 정보를 요구하는 거야.
+예를 들어, 가짜 은행 메일을 보내거나, 금융 기관을 사칭해서 정보를 요구하는 식이야.
+
+이런 공격은 단순히 비밀번호를 털려는 걸 넘어서, 네가 악성코드를 다운로드하게 하거나, 시간이 지나면서 개인정보를 조금씩 털어가는 방식으로 익명성까지 깨뜨릴 수 있어.
+이걸 막을 수 있는 유일한 방법은 속지 않는 것 그리고 상식(common sense) 을 갖는 것뿐이야.
+
+피싱 같은 건 인터넷 초창기부터 수도 없이 써먹혔고,
+가장 유명한 사례 중 하나는 "419 스캠"이라고 불리는 사기야.
+(참고: Advance-fee scam 위키 [Wikiless] [Archive.org])
+
+추가로 피싱 종류에 대해 더 배우고 싶으면, 이 영상도 괜찮아:
+
+Black Hat: Ichthyology: Phishing as a Science
+
+YouTube 링크 ([Invidious 미러 링크]도 있어)
+## 악성코드, 취약점, 바이러스
+## 네 파일
+## 네가 한 암호화폐 거래
+## 네 클라우드 백업 및 동기화 서비스
+## 마이크로 아키텍처 사이드 채널 비익명화 공격
+## 로컬 데이터 유출과 포렌식
+## 잘못된 암호화
+## 무로그 정책
+## 각종 고급 타겟팅 기술
+## 추가적인 정보 
+
+# 일반적인 준비 사항 
+## 방식 선택:
+### 시간 제한
+### 예산/자재 제한
+### 필요한 기술
+### 상대방의 고려사항
+
+
+## 모든 방식에 대한 준비 단계:
+### 더 나은 비밀번호 사용에 익숙해지기
+### 익명 전화번호 가지기 
+### USB 키 가지기 
+### 안전한 공공 Wi-Fi 장소 찾기
+
+## Tor 브라우저 사용하기:
+
+이 가이드는 웹을 익명으로 탐색하는 가장 간단하고 쉬운 방법을 설정하는 데 도움을 줄 거야. 반드시 최고의 방법은 아니고, 아래에는 더 좋은 보안과 다양한 적에 대한 (훨씬) 더 나은 완화 방법을 제공하는 고급 방법들이 있어. 그럼에도 불구하고, 예산, 시간, 기술, 제한된 사용으로 익명으로 자원을 빠르고 간단하게 접근할 수 있는 직관적인 방법이야.
+
+그렇다면, Tor 브라우저란 무엇일까?  
+Tor 브라우저 (<https://www.torproject.org/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.torproject.org/)</sup>)는 Safari, Firefox, Chrome, Edge, Brave와 같은 웹 브라우저로, 개인 정보 보호와 익명성을 염두에 두고 설계되었어.
+
+이 브라우저는 다른 브라우저들과 달리 Onion Routing을 사용하여 Tor 네트워크를 통해 인터넷에 연결돼. 먼저 Tor 프로젝트에서 제공하는 아주 좋은 소개 영상을 보는 것을 추천해: <https://www.youtube.com/watch?v=JWII85UlzKw> <sup>[[Invidious]](https://yewtu.be/watch?v=JWII85UlzKw)</sup>. 
+
+그 후에는 그들의 페이지에서 빠른 개요를 읽어보는 게 좋을 거야: <https://2019.www.torproject.org/about/overview.html.en> <sup>[[Archive.org]](https://web.archive.org/web/https://2019.www.torproject.org/about/overview.html.en)</sup>. 
+
+기술적인 세부 사항에 들어가기 전에, Tor 브라우저는 거의 모든 장치에서 웹을 익명으로 탐색할 수 있는 쉽고 간단한 "불을 지피고 잊어버리기" 솔루션이야. 대부분의 사람들에게 충분할 정도로 간단하고, 어떤 컴퓨터나 스마트폰에서도 사용할 수 있어.
+
+
+## Tails 사용하기 
+
+## Whonix 사용하기
+
+## Qubes 사용하기 
+
+# 익명 온라인 신원 만들기
+## 익명성을 방지하고 신원을 확인하는 데 사용되는 방법 이해하기
+### 캡챠
+### 전화 인증
+### 이메일 인증
+### 사용자 세부 정보 확인
+### 신분증 인증
+### IP 필터
+### 브라우저 및 장치 지문 인식
+### 사람 상호작용
+### 사용자 관리
+### 행동 분석
+### 금융 거래
+### 특정 플랫폼으로 로그인
+### 실시간 얼굴 인식 및 생체 인식 (다시)
+### 수동 검토
+
+## 온라인 활동 시작하기
+### 새로운 신원 만들기
+### Tor 종료 노드가 좋지 않은지 확인하기
+### 실명제
+### 유료 서비스에 대한 설명
+### 개요
+### 파일을 안전하게 공유하고/또는 익명으로 채팅하는 방법
+### 파일을 공개적으로 그러나 익명으로 공유하는 방법
+### 문서/사진/비디오/오디오를 안전하게 수정하는 방법
+### 민감한 정보를 다양한 알려진 조직에 전달하는 방법
+### 유지 관리 작업
+
+# 작업을 안전하게 백업하기
+## 오프라인 백업
+### 선택된 파일 백업
+### 전체 디스크/시스템 백업
+
+## 온라인 백업
+### 파일
+### 정보
+
+## 장치 간 파일 동기화
+# 흔적 지우기
+## HDD vs SSD 이해하기
+### 웨어 레벨링
+### 트림 작업
+### 가비지 컬렉션
+### 결론
+
+## 전체 노트북/드라이브를 안전하게 지우는 방법 (모든 것을 지우고 싶을 때)
+### Linux (Qubes OS 포함 모든 버전)
+### Windows
+### macOS
+
+## HDD/SSD 및 USB 드라이브에서 특정 파일/폴더/데이터를 안전하게 삭제하는 방법
+### Windows
+### Linux (비 Qubes OS)
+### Linux (Qubes OS)
+### macOS
+
+## 포렌식에 대한 추가 조치
+### 파일/문서/사진에서 메타데이터 제거
+### Tails
+### Whonix
+### macOS
+### Linux (Qubes OS)
+### Linux (비 Qubes OS)
+### Windows
+
+## 검색 엔진 및 다양한 플랫폼에서 신원 흔적 제거하기
+### Google
+### Bing
+### DuckDuckGo
+### Yandex
+### Qwant
+### Yahoo Search
+### Baidu
+### Wikipedia
+### Archive.today
+### Internet Archive
+### 기타
+
+# 일부 저기술의 올드스쿨 트릭들
+## 평범한 곳에서 숨겨진 통신:
+## 누군가가 당신의 자료를 검색했는지 알아내는 방법:
+
+# 마지막 OPSEC 생각들:
+## **당신이 이미 손해를 봤다면:**
+### 시간이 있다면:
+### 시간이 없다면:
+
+# 작은 최종 편집자 노트:
+# 기부:
+# 다른 사람들이 익명을 유지하도록 돕기:
+# 감사의 말:
+
+# 부록 A: Windows 설치
+## 설치
+## 개인정보 보호 설정
+
+# 부록 B: Windows 추가 개인정보 보호 설정
+# 부록 C: Windows 설치 미디어 만들기
+# 부록 D: SSD 드라이브를 안전하게 지우기 위한 시스템 복구 사용
+# 부록 E: Clonezilla
+# 부록 F: Diskpart
+# 부록 G: 호스트 OS에서 안전한 브라우저 사용
+## Tor를 사용할 수 있다면:
+## Tor를 사용할 수 없다면:
+
+# 부록 H: Windows 청소 도구
+# 부록 I: ShredOS를 사용하여 HDD 드라이브를 안전하게 지우기
+## Windows
+## Linux
+
+# 부록 J: HDD 및 SSD 드라이브를 지우기 위한 제조사 도구
+## 부팅 디스크에서 지우기를 제공하는 도구
+## 실행 중인 OS에서만 지원하는 도구 (외부 드라이브용)
+
+# 부록 K: 외부 SSD 드라이브 사용 시 고려 사항
+## Windows:
+### 트림 지원:
+### ATA/NVMe 작업 (보안 지우기/소독):
+
+## Linux:
+### 트림 지원:
+### ATA/NVMe 작업 (보안 지우기/소독):
+
+## macOS:
+### 트림 지원:
+### ATA/NVMe 작업 (보안 지우기/소독):
+
+# 부록 L: 파일에서 메타데이터를 제거하기 위한 mat2-web 게스트 VM 만들기
+# 부록 M: 다양한 브랜드의 BIOS/UEFI 옵션을 사용하여 디스크 지우기
+# 부록 N: 스마트폰과 스마트 기기 사용에 대한 경고
+# 부록 O: 익명 VPN/프록시 사용
+## 현금/Monero 결제 VPN
+## Monero/현금 결제 VPS에서 자가 호스팅 VPN/프록시 (Linux에 익숙한 사용자용)
+### VPN VPS
+### Socks 프록시 VPS
+# 부록 P: Tor와 VPN이 옵션이 아닐 때 가능한 가장 안전한 인터넷 접근 방법
+# 부록 Q: 안전한 거리에서 공공 Wi-Fi에 연결하기 위한 장거리 안테나 사용
+# 부록 R: VM 또는 호스트 OS에 VPN 설치하기
+# 부록 S: OONI를 사용하여 네트워크에서 감시/검열 확인하기
+# 부록 T: 파일에서 악성 소프트웨어 검사하기
+## 무결성 (가능한 경우):
+## 진위 (가능한 경우):
+## 보안 (실제 악성 소프트웨어 검사):
+### 안티바이러스 소프트웨어:
+### 수동 리뷰:
+# 부록 U: 감독된 컴퓨터에서 (일부) 지역 제한 우회 방법
+## 휴대용 앱:
+## 부팅 가능한 라이브 시스템:
+## 예방 조치:
+# 부록 V: 게스트 VM/임시 VM에서 사용할 브라우저
+## Brave:
+## Ungoogled-Chromium:
+## Edge:
+## Safari:
+## Firefox:
+## Tor Browser:
+# 부록 V1: 브라우저 보안 강화
+## Brave
+## Ungoogled-Chromium
+## Edge
+## Safari
+## Firefox
+### 일반 설정:
+### 고급 설정:
+### 설치할/고려할 애드온:
+### 추가 자원:
+# 부록 W: 가상화
+## 중첩 가상화 위험
+# 부록 X: 적대적인 환경에서 Tor 브리지 사용
+# 부록 Y: 데스크탑 Tor 브라우저 설치 및 사용
+## 설치
+## 사용 및 예방 조치:
+# 부록 Z: 암호화폐를 이용한 온라인 익명 결제
+## 익명으로 비트코인 사용 옵션:
+## 익명으로 모네로 사용 옵션:
+## 특별한 토큰 혼합, 믹싱, 코인조인 프라이버시 지갑 및 서비스에 대한 경고
+## BTC에서 모네로로 변환할 때:
+# 부록 A1: 추천 VPS 호스팅 제공업체
+# 부록 A2: 비밀번호 및 암호구문에 대한 지침
+# 부록 A3: 검색 엔진
+# 부록 A4: 법의학 언어학에 대응하기
+## 소개
+## 적이 당신의 글을 분석할 때 무엇을 찾을까요?
+## 예시들:
+## 적의 노력을 어떻게 반박할까요?
+## 당신의 언어 선택이 무엇을 말해줄 수 있을까요?
+### 이모티콘:
+### 구조적 특징:
+### 철자법, 속어 및 기호:
+## 글쓰기 흔적을 방지하는 기술:
+### 철자법 및 문법 검사:
+### 번역 기법:
+### 검색 및 교체:
+### 마지막 조언:
+## 추가 링크들:
+# 부록 A5: JavaScript가 활성화된 상태에서 추가적인 브라우저 예방 조치
+# 부록 A6: 미러 사이트
+# 부록 A7: 버전 비교
+# 부록 A8: 등록 및 KYC 없이 암호화폐 교환 서비스
+## 일반 암호화폐 교환:
+## BTC에서 모네로로만 교환:
+# 부록 A9: Zcash 지갑 설치하기
+## Debian 11 VM:
+## Ubuntu 20.04/21.04/21.10 VM:
+## Windows 10/11 VM:
+## Whonix Workstation 16 VM:
+# 부록 B1: 정보를 공유하기 전에 확인해야 할 사항 체크리스트
+# 부록 B2: 모네로 면책 조항
+# 부록 B3: 위협 모델링 자원
+# 부록 B4: 악성 메이드 및 변조에 관한 중요한 메모
+# 부록 B5: CPU 공격 유형:
+# 부록 B6: Android에서 Orbot 사용에 대한 경고
+# 부록 B7: Session 메신저 사용에 대한 주의
+# 참고 문헌:
+
 
 
 ---
 
 # 참조:
 
+[^1]: English translation of German Telemedia Act <https://www.huntonprivacyblog.com/wp-content/uploads/sites/28/2016/02/Telemedia_Act__TMA_.pdf> <sup>[[Archive.org]](https://web.archive.org/web/https://www.huntonprivacyblog.com/wp-content/uploads/sites/28/2016/02/Telemedia_Act__TMA_.pdf)</sup>. Section 13, Article 6, "The service provider must enable the use of Telemedia and payment for them to occur anonymously or via a pseudonym where this is technically possible and reasonable. The recipient of the service is to be informed about this possibility. ".
+
+[^2]: Wikipedia, Real-Name System Germany <https://en.wikipedia.org/wiki/Real-name_system#Germany> <sup>[[Wikiless]](https://wikiless.org/wiki/Real-name_system)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Real-name_system)</sup>
+
+[^3]: Wikipedia, Don't be evil <https://en.wikipedia.org/wiki/Don%27t_be_evil> <sup>[[Wikiless]](https://wikiless.org/wiki/Don%27t_be_evil)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Don%27t_be_evil)</sup>
+
 [^4]: YouTube, WarGames - "The Only Winning Move" <https://www.youtube.com/watch?v=6DGNZnfKYnU> <sup>[[Invidious]](https://yewtu.be/watch?v=6DGNZnfKYnU)</sup>
+
+[^5]: Wikipedia, OSINT <https://en.wikipedia.org/wiki/Open-source_intelligence> <sup>[[Wikiless]](https://wikiless.org/wiki/Open-source_intelligence)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Open-source_intelligence)</sup>
+
+[^6]: YouTube Internet Historian Playlist, HWNDU <https://www.youtube.com/playlist?list=PLna1KTNJu3y09Tu70U6yPn28sekaNhOMY> <sup>[[Invidious]](https://yewtu.be/playlist?list=PLna1KTNJu3y09Tu70U6yPn28sekaNhOMY)</sup>
+
+[^7]: Wikipedia, 4chan <https://en.wikipedia.org/wiki/4chan> <sup>[[Wikiless]](https://wikiless.org/wiki/4chan)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/4chan)</sup>
+
+[^8]: PIA, See this good article on the matter <https://www.privateinternetaccess.com/blog/how-does-privacy-differ-from-anonymity-and-why-are-both-important/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.privateinternetaccess.com/blog/how-does-privacy-differ-from-anonymity-and-why-are-both-important/)</sup> (disclaimer: this is not an endorsement or recommendation for this commercial service).
+
+[^9]: Medium.com, Privacy, Blockchain and Onion Routing <https://medium.com/unitychain/privacy-blockchain-and-onion-routing-d5609c611841> <sup>[[Scribe.rip]](https://scribe.rip/unitychain/privacy-blockchain-and-onion-routing-d5609c611841)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://medium.com/unitychain/privacy-blockchain-and-onion-routing-d5609c611841)</sup>
+
+[^10]: This World of Ours, James Mickens <https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf> <sup>[[Archive.org]](https://web.archive.org/web/https://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf)</sup>
+
+[^11]: XKCD, Security <https://xkcd.com/538/> <sup>[[Archive.org]](https://web.archive.org/web/https://xkcd.com/538/)</sup>
+
+[^12]: Wikipedia, Threat Model <https://en.wikipedia.org/wiki/Threat_model> <sup>[[Wikiless]](https://wikiless.org/wiki/Threat_model)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Threat_model)</sup>
+
+[^13]: Bellingcat <https://www.bellingcat.com/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.bellingcat.com/)</sup>
+
+[^14]: Wikipedia, Doxing <https://en.wikipedia.org/wiki/Doxing> <sup>[[Wikiless]](https://wikiless.org/wiki/Doxing)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Doxing)</sup>
+
+[^15]: YouTube, Internet Historian, The Bikelock Fugitive of Berkeley <https://www.youtube.com/watch?v=muoR8Td44UE> <sup>[[Invidious]](https://yewtu.be/watch?v=muoR8Td44UE)</sup>
+
+[^16]: BBC News, Tor Mirror <https://www.bbc.com/news/technology-50150981> <sup>[[Archive.org]](https://web.archive.org/web/https://www.bbc.com/news/technology-50150981)</sup>
+
+[^17]: GitHub, Real World Onion websites <https://github.com/alecmuffett/real-world-onion-sites> <sup>[[Archive.org]](https://web.archive.org/web/https://github.com/alecmuffett/real-world-onion-sites)</sup> (updated extremely often)
+
+[^18]: Tor Project, Who Uses Tor <https://2019.www.torproject.org/about/torusers.html.en> <sup>[[Archive.org]](https://web.archive.org/web/https://2019.www.torproject.org/about/torusers.html.en)</sup>
+
+[^19]: Whonix Documentation, The importance of Anonymity <https://www.whonix.org/wiki/Anonymity> <sup>[[Archive.org]](https://web.archive.org/web/https://www.whonix.org/wiki/Anonymity)</sup>
+
+[^20]: Geek Feminism <https://geekfeminism.wikia.org/wiki/Who_is_harmed_by_a_%22Real_Names%22_policy%3F> <sup>[[Archive.org]](https://web.archive.org/web/https://geekfeminism.wikia.org/wiki/Who_is_harmed_by_a_%22Real_Names%22_policy%3F)</sup>
+
+[^21]: Tor Project, Tor Users <https://2019.www.torproject.org/about/torusers.html.en> <sup>[[Archive.org]](https://web.archive.org/web/https://2019.www.torproject.org/about/torusers.html.en)</sup>
+
+[^22]: PrivacyHub, Internet Privacy in the Age of Surveillance <https://www.cyberghostvpn.com/privacyhub/internet-privacy-surveillance/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.cyberghostvpn.com/privacyhub/internet-privacy-surveillance/)</sup>
+
+[^23]: PIA Blog, 50 Key Stats About Freedom of the Internet Around the World <https://www.privateinternetaccess.com/blog/internet-freedom-around-the-world-in-50-stats/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.privateinternetaccess.com/blog/internet-freedom-around-the-world-in-50-stats/)</sup>
+
+[^24]: Wikipedia, IANAL <https://en.wikipedia.org/wiki/IANAL> <sup>[[Wikiless]](https://wikiless.org/wiki/IANAL)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/IANAL)</sup>
+
+[^25]: Wikipedia, Trust but verify <https://en.wikipedia.org/wiki/Trust,_but_verify> <sup>[[Wikiless]](https://wikiless.org/wiki/Trust,_but_verify)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Trust,_but_verify)</sup>
+
+[^26]: Wikipedia, IP Address <https://en.wikipedia.org/wiki/IP_address> <sup>[[Wikiless]](https://wikiless.org/wiki/IP_address)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/IP_address)</sup>
+
+[^27]: Wikipedia; Data Retention <https://en.wikipedia.org/wiki/Data_retention> <sup>[[Wikiless]](https://wikiless.org/wiki/Data_retention)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Data_retention)</sup>
+
+[^28]: Wikipedia, Tor Anonymity Network <https://en.wikipedia.org/wiki/Tor_(anonymity_network)> <sup>[[Wikiless]](https://wikiless.org/wiki/Tor_(anonymity_network))</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Tor_(anonymity_network))</sup>
+
+[^29]: Wikipedia, VPN <https://en.wikipedia.org/wiki/Virtual_private_network> <sup>[[Wikiless]](https://wikiless.org/wiki/Virtual_private_network)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Virtual_private_network)</sup>
+
+[^30]: Ieee.org, Anonymity Trilemma: Strong Anonymity, Low Bandwidth Overhead, Low Latency - Choose Two <https://ieeexplore.ieee.org/document/8418599> <sup>[[Archive.org]](https://web.archive.org/web/https://ieeexplore.ieee.org/document/8418599)</sup>
+
+[^31]: Wikipedia, DNS <https://en.wikipedia.org/wiki/Domain_Name_System> <sup>[[Wikiless]](https://wikiless.org/wiki/Domain_Name_System)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Domain_Name_System)</sup>
+
+[^32]: Wikipedia, DNS Blocking <https://en.wikipedia.org/wiki/DNS_blocking> <sup>[[Wikiless]](https://wikiless.org/wiki/DNS_blocking)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/DNS_blocking)</sup>
+
+[^33]: CensoredPlanet <https://censoredplanet.org/> <sup>[[Archive.org]](https://web.archive.org/web/https://censoredplanet.org/)</sup>
+
+[^34]: ArXiv, Characterizing Smart Home IoT Traffic in the Wild <https://arxiv.org/pdf/2001.08288.pdf> <sup>[[Archive.org]](https://web.archive.org/web/https://arxiv.org/pdf/2001.08288.pdf)</sup>
+
+[^35]: Labzilla.io, Your Smart TV is probably ignoring your Pi-Hole <https://labzilla.io/blog/force-dns-pihole> <sup>[[Archive.org]](https://web.archive.org/web/https://labzilla.io/blog/force-dns-pihole)</sup>
+
+[^36]: Wikipedia, DNS over HTTPS: <https://en.wikipedia.org/wiki/DNS_over_HTTPS> <sup>[[Wikiless]](https://wikiless.org/wiki/DNS_over_HTTPS)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/DNS_over_HTTPS)</sup>
+
+[^37]: Wikipedia, DNS over TLS, <https://en.wikipedia.org/wiki/DNS_over_TLS> <sup>[[Wikiless]](https://wikiless.org/wiki/DNS_over_TLS)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/DNS_over_TLS)</sup>
+
+[^38]: Wikipedia, Pi-Hole <https://en.wikipedia.org/wiki/Pi-hole> <sup>[[Wikiless]](https://wikiless.org/wiki/Pi-hole)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Pi-hole)</sup>
+
+[^39]: Wikipedia, SNI <https://en.wikipedia.org/wiki/Server_Name_Indication> <sup>[[Wikiless]](https://wikiless.org/wiki/Server_Name_Indication)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Server_Name_Indication)</sup>
+
+[^40]: Wikipedia, ECH <https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello> <sup>[[Wikiless]](https://wikiless.org/wiki/Server_Name_Indication)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Server_Name_Indication)</sup>
+
+[^41]: Wikipedia, eSNI <https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello> <sup>[[Wikiless]](https://wikiless.org/wiki/Server_Name_Indication)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Server_Name_Indication)</sup>
+
+[^42]: Usenix.org, On the Importance of Encrypted-SNI (ESNI) to Censorship Circumvention <https://www.usenix.org/system/files/foci19-paper_chai_0.pdf> <sup>[[Archive.org]](https://web.archive.org/web/https://www.usenix.org/system/files/foci19-paper_chai_0.pdf)</sup>
+
+[^43]: Wikipedia, CDN <https://en.wikipedia.org/wiki/Content_delivery_network> <sup>[[Wikiless]](https://wikiless.org/wiki/Content_delivery_network)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Content_delivery_network)</sup>
+
+[^44]: Cloudflare, Good-bye ESNI, hello ECH! <https://blog.cloudflare.com/encrypted-client-hello/> <sup>[[Archive.org]](https://web.archive.org/web/https://blog.cloudflare.com/encrypted-client-hello/)</sup>
+
+[^45]: ZDNET, Russia wants to ban the use of secure protocols such as TLS 1.3, DoH, DoT, ESNI <https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)</sup>
+
+[^46]: ZDNET, China is now blocking all encrypted HTTPS traffic that uses TLS 1.3 and ESNI <https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/)</sup>
+
+[^47]: Wikipedia, OCSP <https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol> <sup>[[Wikiless]](https://wikiless.org/wiki/Online_Certificate_Status_Protocol)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol)</sup>
+
+[^48]: Madaidans Insecurities, Why encrypted DNS is ineffective <https://madaidans-insecurities.github.io/encrypted-dns.html> <sup>[[Archive.org]](https://web.archive.org/web/https://madaidans-insecurities.github.io/encrypted-dns.html)</sup>
+
+[^49]: Wikipedia, OCSP Stapling <https://en.wikipedia.org/wiki/OCSP_stapling> <sup>[[Wikiless]](https://wikiless.org/wiki/OCSP_stapling)</sup> <sup>[[Archive.org]](https://web.archive.org/web/https://en.wikipedia.org/wiki/OCSP_stapling)</sup>
+
+[^50]: Chromium Documentation, CRLSets <https://dev.chromium.org/Home/chromium-security/crlsets> <sup>[[Archive.org]](https://web.archive.org/web/https://dev.chromium.org/Home/chromium-security/crlsets)</sup>
+
+[^51]: ZDNet, Chrome does certificate revocation better <https://www.zdnet.com/article/chrome-does-certificate-revocation-better/> <sup>[[Archive.org]](https://web.archive.org/web/https://www.zdnet.com/article/chrome-does-certificate-revocation-better/)</sup>
+
+[^52]: KUL, Encrypted DNS=⇒Privacy? A Traffic Analysis Perspective <https://www.esat.kuleuven.be/cosic/publications/article-3153.pdf> <sup>[[Archive.org]](https://web.archive.org/web/https://www.esat.kuleuven.be/cosic/publications/article-3153.pdf)</sup>
