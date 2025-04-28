@@ -25,7 +25,7 @@ tocopen = true
 mainsections = ["page", "post", "archive", "search"]
 
 [homeInfoParams]
-Title = "MaiBoii's TIL"
+Title = "MaiBoii's Blog"
 Content = "공부한거 정리하고 번역도 하는 곳"
 
 [[socialIcons]]
