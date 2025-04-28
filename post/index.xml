@@ -6,13 +6,258 @@
     <description>Recent content in Posts on MaiBoii</description>
     <generator>Hugo -- 0.146.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Apr 2025 11:20:55 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 28 Apr 2025 14:21:45 +0900</lastBuildDate>
     <atom:link href="https://maiboii.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>번역) 부록 (A1~)</title>
+      <link>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_new/</link>
+      <pubDate>Mon, 28 Apr 2025 14:21:45 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_new/</guid>
+      <description>&lt;h1 id=&#34;부록-a1-추천-vps-호스팅-제공업체&#34;&gt;부록 A1: 추천 VPS 호스팅 제공업체&lt;/h1&gt;
+&lt;h1 id=&#34;부록-a2-비밀번호-및-암호구문에-대한-지침&#34;&gt;부록 A2: 비밀번호 및 암호구문에 대한 지침&lt;/h1&gt;
+&lt;h1 id=&#34;부록-a3-검색-엔진&#34;&gt;부록 A3: 검색 엔진&lt;/h1&gt;
+&lt;h1 id=&#34;부록-a4-법의학-언어학에-대응하기&#34;&gt;부록 A4: 법의학 언어학에 대응하기&lt;/h1&gt;
+&lt;h2 id=&#34;소개&#34;&gt;소개&lt;/h2&gt;
+&lt;h2 id=&#34;적이-당신의-글을-분석할-때-무엇을-찾을까요&#34;&gt;적이 당신의 글을 분석할 때 무엇을 찾을까요?&lt;/h2&gt;
+&lt;h2 id=&#34;예시들&#34;&gt;예시들:&lt;/h2&gt;
+&lt;h2 id=&#34;적의-노력을-어떻게-반박할까요&#34;&gt;적의 노력을 어떻게 반박할까요?&lt;/h2&gt;
+&lt;h2 id=&#34;당신의-언어-선택이-무엇을-말해줄-수-있을까요&#34;&gt;당신의 언어 선택이 무엇을 말해줄 수 있을까요?&lt;/h2&gt;
+&lt;h3 id=&#34;이모티콘&#34;&gt;이모티콘:&lt;/h3&gt;
+&lt;h3 id=&#34;구조적-특징&#34;&gt;구조적 특징:&lt;/h3&gt;
+&lt;h3 id=&#34;철자법-속어-및-기호&#34;&gt;철자법, 속어 및 기호:&lt;/h3&gt;
+&lt;h2 id=&#34;글쓰기-흔적을-방지하는-기술&#34;&gt;글쓰기 흔적을 방지하는 기술:&lt;/h2&gt;
+&lt;h3 id=&#34;철자법-및-문법-검사&#34;&gt;철자법 및 문법 검사:&lt;/h3&gt;
+&lt;h3 id=&#34;번역-기법&#34;&gt;번역 기법:&lt;/h3&gt;
+&lt;h3 id=&#34;검색-및-교체&#34;&gt;검색 및 교체:&lt;/h3&gt;
+&lt;h3 id=&#34;마지막-조언&#34;&gt;마지막 조언:&lt;/h3&gt;
+&lt;h2 id=&#34;추가-링크들&#34;&gt;추가 링크들:&lt;/h2&gt;
+&lt;h1 id=&#34;부록-a5-javascript가-활성화된-상태에서-추가적인-브라우저-예방-조치&#34;&gt;부록 A5: JavaScript가 활성화된 상태에서 추가적인 브라우저 예방 조치&lt;/h1&gt;
+&lt;h1 id=&#34;부록-a6-미러-사이트&#34;&gt;부록 A6: 미러 사이트&lt;/h1&gt;
+&lt;h1 id=&#34;부록-a7-버전-비교&#34;&gt;부록 A7: 버전 비교&lt;/h1&gt;
+&lt;h1 id=&#34;부록-a8-등록-및-kyc-없이-암호화폐-교환-서비스&#34;&gt;부록 A8: 등록 및 KYC 없이 암호화폐 교환 서비스&lt;/h1&gt;
+&lt;h2 id=&#34;일반-암호화폐-교환&#34;&gt;일반 암호화폐 교환:&lt;/h2&gt;
+&lt;h2 id=&#34;btc에서-모네로로만-교환&#34;&gt;BTC에서 모네로로만 교환:&lt;/h2&gt;
+&lt;h1 id=&#34;부록-a9-zcash-지갑-설치하기&#34;&gt;부록 A9: Zcash 지갑 설치하기&lt;/h1&gt;
+&lt;h2 id=&#34;debian-11-vm&#34;&gt;Debian 11 VM:&lt;/h2&gt;
+&lt;h2 id=&#34;ubuntu-200421042110-vm&#34;&gt;Ubuntu 20.04/21.04/21.10 VM:&lt;/h2&gt;
+&lt;h2 id=&#34;windows-1011-vm&#34;&gt;Windows 10/11 VM:&lt;/h2&gt;
+&lt;h2 id=&#34;whonix-workstation-16-vm&#34;&gt;Whonix Workstation 16 VM:&lt;/h2&gt;
+&lt;h1 id=&#34;부록-b1-정보를-공유하기-전에-확인해야-할-사항-체크리스트&#34;&gt;부록 B1: 정보를 공유하기 전에 확인해야 할 사항 체크리스트&lt;/h1&gt;
+&lt;h1 id=&#34;부록-b2-모네로-면책-조항&#34;&gt;부록 B2: 모네로 면책 조항&lt;/h1&gt;
+&lt;h1 id=&#34;부록-b3-위협-모델링-자원&#34;&gt;부록 B3: 위협 모델링 자원&lt;/h1&gt;
+&lt;h1 id=&#34;부록-b4-악성-메이드-및-변조에-관한-중요한-메모&#34;&gt;부록 B4: 악성 메이드 및 변조에 관한 중요한 메모&lt;/h1&gt;
+&lt;h1 id=&#34;부록-b5-cpu-공격-유형&#34;&gt;부록 B5: CPU 공격 유형:&lt;/h1&gt;
+&lt;h1 id=&#34;부록-b6-android에서-orbot-사용에-대한-경고&#34;&gt;부록 B6: Android에서 Orbot 사용에 대한 경고&lt;/h1&gt;
+&lt;h1 id=&#34;부록-b7-session-메신저-사용에-대한-주의&#34;&gt;부록 B7: Session 메신저 사용에 대한 주의&lt;/h1&gt;
+&lt;h1 id=&#34;참고-문헌&#34;&gt;참고 문헌:&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>번역) 부록 A-Z</title>
+      <link>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_a-z-/</link>
+      <pubDate>Mon, 28 Apr 2025 14:14:06 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_a-z-/</guid>
+      <description>&lt;h1 id=&#34;부록-a-windows-설치&#34;&gt;부록 A: Windows 설치&lt;/h1&gt;
+&lt;h2 id=&#34;설치&#34;&gt;설치&lt;/h2&gt;
+&lt;h2 id=&#34;개인정보-보호-설정&#34;&gt;개인정보 보호 설정&lt;/h2&gt;
+&lt;h1 id=&#34;부록-b-windows-추가-개인정보-보호-설정&#34;&gt;부록 B: Windows 추가 개인정보 보호 설정&lt;/h1&gt;
+&lt;h1 id=&#34;부록-c-windows-설치-미디어-만들기&#34;&gt;부록 C: Windows 설치 미디어 만들기&lt;/h1&gt;
+&lt;h1 id=&#34;부록-d-ssd-드라이브를-안전하게-지우기-위한-시스템-복구-사용&#34;&gt;부록 D: SSD 드라이브를 안전하게 지우기 위한 시스템 복구 사용&lt;/h1&gt;
+&lt;h1 id=&#34;부록-e-clonezilla&#34;&gt;부록 E: Clonezilla&lt;/h1&gt;
+&lt;h1 id=&#34;부록-f-diskpart&#34;&gt;부록 F: Diskpart&lt;/h1&gt;
+&lt;h1 id=&#34;부록-g-호스트-os에서-안전한-브라우저-사용&#34;&gt;부록 G: 호스트 OS에서 안전한 브라우저 사용&lt;/h1&gt;
+&lt;h2 id=&#34;tor를-사용할-수-있다면&#34;&gt;Tor를 사용할 수 있다면:&lt;/h2&gt;
+&lt;h2 id=&#34;tor를-사용할-수-없다면&#34;&gt;Tor를 사용할 수 없다면:&lt;/h2&gt;
+&lt;h1 id=&#34;부록-h-windows-청소-도구&#34;&gt;부록 H: Windows 청소 도구&lt;/h1&gt;
+&lt;h1 id=&#34;부록-i-shredos를-사용하여-hdd-드라이브를-안전하게-지우기&#34;&gt;부록 I: ShredOS를 사용하여 HDD 드라이브를 안전하게 지우기&lt;/h1&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+&lt;h1 id=&#34;부록-j-hdd-및-ssd-드라이브를-지우기-위한-제조사-도구&#34;&gt;부록 J: HDD 및 SSD 드라이브를 지우기 위한 제조사 도구&lt;/h1&gt;
+&lt;h2 id=&#34;부팅-디스크에서-지우기를-제공하는-도구&#34;&gt;부팅 디스크에서 지우기를 제공하는 도구&lt;/h2&gt;
+&lt;h2 id=&#34;실행-중인-os에서만-지원하는-도구-외부-드라이브용&#34;&gt;실행 중인 OS에서만 지원하는 도구 (외부 드라이브용)&lt;/h2&gt;
+&lt;h1 id=&#34;부록-k-외부-ssd-드라이브-사용-시-고려-사항&#34;&gt;부록 K: 외부 SSD 드라이브 사용 시 고려 사항&lt;/h1&gt;
+&lt;h2 id=&#34;windows-1&#34;&gt;Windows:&lt;/h2&gt;
+&lt;h3 id=&#34;트림-지원&#34;&gt;트림 지원:&lt;/h3&gt;
+&lt;h3 id=&#34;atanvme-작업-보안-지우기소독&#34;&gt;ATA/NVMe 작업 (보안 지우기/소독):&lt;/h3&gt;
+&lt;h2 id=&#34;linux-1&#34;&gt;Linux:&lt;/h2&gt;
+&lt;h3 id=&#34;트림-지원-1&#34;&gt;트림 지원:&lt;/h3&gt;
+&lt;h3 id=&#34;atanvme-작업-보안-지우기소독-1&#34;&gt;ATA/NVMe 작업 (보안 지우기/소독):&lt;/h3&gt;
+&lt;h2 id=&#34;macos&#34;&gt;macOS:&lt;/h2&gt;
+&lt;h3 id=&#34;트림-지원-2&#34;&gt;트림 지원:&lt;/h3&gt;
+&lt;h3 id=&#34;atanvme-작업-보안-지우기소독-2&#34;&gt;ATA/NVMe 작업 (보안 지우기/소독):&lt;/h3&gt;
+&lt;h1 id=&#34;부록-l-파일에서-메타데이터를-제거하기-위한-mat2-web-게스트-vm-만들기&#34;&gt;부록 L: 파일에서 메타데이터를 제거하기 위한 mat2-web 게스트 VM 만들기&lt;/h1&gt;
+&lt;h1 id=&#34;부록-m-다양한-브랜드의-biosuefi-옵션을-사용하여-디스크-지우기&#34;&gt;부록 M: 다양한 브랜드의 BIOS/UEFI 옵션을 사용하여 디스크 지우기&lt;/h1&gt;
+&lt;h1 id=&#34;부록-n-스마트폰과-스마트-기기-사용에-대한-경고&#34;&gt;부록 N: 스마트폰과 스마트 기기 사용에 대한 경고&lt;/h1&gt;
+&lt;h1 id=&#34;부록-o-익명-vpn프록시-사용&#34;&gt;부록 O: 익명 VPN/프록시 사용&lt;/h1&gt;
+&lt;h2 id=&#34;현금monero-결제-vpn&#34;&gt;현금/Monero 결제 VPN&lt;/h2&gt;
+&lt;h2 id=&#34;monero현금-결제-vps에서-자가-호스팅-vpn프록시-linux에-익숙한-사용자용&#34;&gt;Monero/현금 결제 VPS에서 자가 호스팅 VPN/프록시 (Linux에 익숙한 사용자용)&lt;/h2&gt;
+&lt;h3 id=&#34;vpn-vps&#34;&gt;VPN VPS&lt;/h3&gt;
+&lt;h3 id=&#34;socks-프록시-vps&#34;&gt;Socks 프록시 VPS&lt;/h3&gt;
+&lt;h1 id=&#34;부록-p-tor와-vpn이-옵션이-아닐-때-가능한-가장-안전한-인터넷-접근-방법&#34;&gt;부록 P: Tor와 VPN이 옵션이 아닐 때 가능한 가장 안전한 인터넷 접근 방법&lt;/h1&gt;
+&lt;h1 id=&#34;부록-q-안전한-거리에서-공공-wi-fi에-연결하기-위한-장거리-안테나-사용&#34;&gt;부록 Q: 안전한 거리에서 공공 Wi-Fi에 연결하기 위한 장거리 안테나 사용&lt;/h1&gt;
+&lt;h1 id=&#34;부록-r-vm-또는-호스트-os에-vpn-설치하기&#34;&gt;부록 R: VM 또는 호스트 OS에 VPN 설치하기&lt;/h1&gt;
+&lt;h1 id=&#34;부록-s-ooni를-사용하여-네트워크에서-감시검열-확인하기&#34;&gt;부록 S: OONI를 사용하여 네트워크에서 감시/검열 확인하기&lt;/h1&gt;
+&lt;h1 id=&#34;부록-t-파일에서-악성-소프트웨어-검사하기&#34;&gt;부록 T: 파일에서 악성 소프트웨어 검사하기&lt;/h1&gt;
+&lt;h2 id=&#34;무결성-가능한-경우&#34;&gt;무결성 (가능한 경우):&lt;/h2&gt;
+&lt;h2 id=&#34;진위-가능한-경우&#34;&gt;진위 (가능한 경우):&lt;/h2&gt;
+&lt;h2 id=&#34;보안-실제-악성-소프트웨어-검사&#34;&gt;보안 (실제 악성 소프트웨어 검사):&lt;/h2&gt;
+&lt;h3 id=&#34;안티바이러스-소프트웨어&#34;&gt;안티바이러스 소프트웨어:&lt;/h3&gt;
+&lt;h3 id=&#34;수동-리뷰&#34;&gt;수동 리뷰:&lt;/h3&gt;
+&lt;h1 id=&#34;부록-u-감독된-컴퓨터에서-일부-지역-제한-우회-방법&#34;&gt;부록 U: 감독된 컴퓨터에서 (일부) 지역 제한 우회 방법&lt;/h1&gt;
+&lt;h2 id=&#34;휴대용-앱&#34;&gt;휴대용 앱:&lt;/h2&gt;
+&lt;h2 id=&#34;부팅-가능한-라이브-시스템&#34;&gt;부팅 가능한 라이브 시스템:&lt;/h2&gt;
+&lt;h2 id=&#34;예방-조치&#34;&gt;예방 조치:&lt;/h2&gt;
+&lt;h1 id=&#34;부록-v-게스트-vm임시-vm에서-사용할-브라우저&#34;&gt;부록 V: 게스트 VM/임시 VM에서 사용할 브라우저&lt;/h1&gt;
+&lt;h2 id=&#34;brave&#34;&gt;Brave:&lt;/h2&gt;
+&lt;h2 id=&#34;ungoogled-chromium&#34;&gt;Ungoogled-Chromium:&lt;/h2&gt;
+&lt;h2 id=&#34;edge&#34;&gt;Edge:&lt;/h2&gt;
+&lt;h2 id=&#34;safari&#34;&gt;Safari:&lt;/h2&gt;
+&lt;h2 id=&#34;firefox&#34;&gt;Firefox:&lt;/h2&gt;
+&lt;h2 id=&#34;tor-browser&#34;&gt;Tor Browser:&lt;/h2&gt;
+&lt;h1 id=&#34;부록-v1-브라우저-보안-강화&#34;&gt;부록 V1: 브라우저 보안 강화&lt;/h1&gt;
+&lt;h2 id=&#34;brave-1&#34;&gt;Brave&lt;/h2&gt;
+&lt;h2 id=&#34;ungoogled-chromium-1&#34;&gt;Ungoogled-Chromium&lt;/h2&gt;
+&lt;h2 id=&#34;edge-1&#34;&gt;Edge&lt;/h2&gt;
+&lt;h2 id=&#34;safari-1&#34;&gt;Safari&lt;/h2&gt;
+&lt;h2 id=&#34;firefox-1&#34;&gt;Firefox&lt;/h2&gt;
+&lt;h3 id=&#34;일반-설정&#34;&gt;일반 설정:&lt;/h3&gt;
+&lt;h3 id=&#34;고급-설정&#34;&gt;고급 설정:&lt;/h3&gt;
+&lt;h3 id=&#34;설치할고려할-애드온&#34;&gt;설치할/고려할 애드온:&lt;/h3&gt;
+&lt;h3 id=&#34;추가-자원&#34;&gt;추가 자원:&lt;/h3&gt;
+&lt;h1 id=&#34;부록-w-가상화&#34;&gt;부록 W: 가상화&lt;/h1&gt;
+&lt;h2 id=&#34;중첩-가상화-위험&#34;&gt;중첩 가상화 위험&lt;/h2&gt;
+&lt;h1 id=&#34;부록-x-적대적인-환경에서-tor-브리지-사용&#34;&gt;부록 X: 적대적인 환경에서 Tor 브리지 사용&lt;/h1&gt;
+&lt;h1 id=&#34;부록-y-데스크탑-tor-브라우저-설치-및-사용&#34;&gt;부록 Y: 데스크탑 Tor 브라우저 설치 및 사용&lt;/h1&gt;
+&lt;h2 id=&#34;설치-1&#34;&gt;설치&lt;/h2&gt;
+&lt;h2 id=&#34;사용-및-예방-조치&#34;&gt;사용 및 예방 조치:&lt;/h2&gt;
+&lt;h1 id=&#34;부록-z-암호화폐를-이용한-온라인-익명-결제&#34;&gt;부록 Z: 암호화폐를 이용한 온라인 익명 결제&lt;/h1&gt;
+&lt;h2 id=&#34;익명으로-비트코인-사용-옵션&#34;&gt;익명으로 비트코인 사용 옵션:&lt;/h2&gt;
+&lt;h2 id=&#34;익명으로-모네로-사용-옵션&#34;&gt;익명으로 모네로 사용 옵션:&lt;/h2&gt;
+&lt;h2 id=&#34;특별한-토큰-혼합-믹싱-코인조인-프라이버시-지갑-및-서비스에-대한-경고&#34;&gt;특별한 토큰 혼합, 믹싱, 코인조인 프라이버시 지갑 및 서비스에 대한 경고&lt;/h2&gt;
+&lt;h2 id=&#34;btc에서-모네로로-변환할-때&#34;&gt;BTC에서 모네로로 변환할 때:&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>번역) 마치며</title>
+      <link>https://maiboii.github.io/post/%EB%A7%88%EC%B9%98%EB%A9%B0/</link>
+      <pubDate>Mon, 28 Apr 2025 14:12:11 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/%EB%A7%88%EC%B9%98%EB%A9%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>번역) 변조 또는 검색이 감지된 경우 대처 방법</title>
+      <link>https://maiboii.github.io/post/7_%EB%8C%80%EC%B2%98/</link>
+      <pubDate>Mon, 28 Apr 2025 14:09:23 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/7_%EB%8C%80%EC%B2%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>번역) OPSEC에 대한 단상</title>
+      <link>https://maiboii.github.io/post/7_opsec/</link>
+      <pubDate>Mon, 28 Apr 2025 13:55:27 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/7_opsec/</guid>
+      <description>&lt;h1 id=&#34;opsec에-대한-생각&#34;&gt;OPSEC에 대한 생각&lt;/h1&gt;
+&lt;p&gt;OPSEC이 뭐냐고? OPSEC은 &lt;strong&gt;Operations Security&lt;/strong&gt;(작전 보안)의 줄임말이야. 간단히 말하면, &amp;ldquo;OPSEC은 더 큰 그림을 그릴 수 있는 개별 데이터를 보호하는 과정&amp;quot;이야.&lt;/p&gt;
+&lt;p&gt;여기서 중요한 단계는, 아마도 가장 쉬운 단계일 텐데, 영화 &lt;strong&gt;파이트 클럽&lt;/strong&gt;에서 배울 수 있는 교훈이 있어. &lt;strong&gt;첫 번째 규칙은 절대 파이트 클럽에 대해 말하지 않는 거야.&lt;/strong&gt; 이 원칙은 너의 온라인 보안과 OPSEC에도 적용돼. 이 가이드를 천천히 읽으면 인터넷에서 더 안전한 경험을 할 수 있는 도구와 지식을 얻게 될 거야. 이 가이드는 적들을 좌절시킬 수 있는 방법들을 알려줄 거야. 운영 체제를 보호하고 중요한 정보를 잠그는 방법을 배우고, 미션을 성공적으로 수행할 수 있을 거야. 하지만 기억해야 할 점은 한 가지 규칙인데, 바로 &lt;strong&gt;작전 세부 사항에 대해 말하지 않는 거야.&lt;/strong&gt; 가장 큰 적의 위협은 &lt;strong&gt;OSINT&lt;/strong&gt;(개방형 소스 정보 수집)라는 걸 잊지 말자. 적은 네가 온라인과 현실에서 하는 활동을 바탕으로 정보를 모을 거야.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>번역) 몇 가지 저수준 기술과 전통적인 트릭</title>
+      <link>https://maiboii.github.io/post/%EC%A0%80%EC%88%98%EC%A4%80/</link>
+      <pubDate>Mon, 28 Apr 2025 13:45:20 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/%EC%A0%80%EC%88%98%EC%A4%80/</guid>
+      <description>&lt;h2 id=&#34;메시지-숨기기&#34;&gt;메시지 숨기기&lt;/h2&gt;
+&lt;p&gt;보안을 강화하려는 기술들(암호화, 그럴듯한 부인, VPN, Tor, 안전한 운영 체제 등)을 사용하면 오히려 의심을 살 수 있다는 점을 기억해야 해. 이러한 방법들을 사용한다는 건 &amp;ldquo;나에게 숨길 것이 있다&amp;quot;는 걸 공개적으로 말하는 것과 같을 수 있어. 이로 인해 어떤 적대적인 사람들은 더 많은 조사나 감시를 시작할 수 있지.&lt;/p&gt;
+&lt;p&gt;그래서 보안을 유지하면서도 사람들에게 메시지를 전달할 방법이 있어. 이 방법들은 수십 년 동안 다양한 조직에서 사용되었고, 안전한 기술을 사용해서 주목받지 않으면서 민감한 정보를 전달하고 싶을 때 유용할 수 있어.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>번역) 디지털 흔적 지우기</title>
+      <link>https://maiboii.github.io/post/6_%ED%9D%94%EC%A0%81-%EC%A7%80%EC%9A%B0%EA%B8%B0/</link>
+      <pubDate>Mon, 28 Apr 2025 13:28:44 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/6_%ED%9D%94%EC%A0%81-%EC%A7%80%EC%9A%B0%EA%B8%B0/</guid>
+      <description>&lt;h1 id=&#34;디지털-흔적-지우기&#34;&gt;디지털 흔적 지우기&lt;/h1&gt;
+&lt;h2 id=&#34;hdd-vs-ssd-이해하기&#34;&gt;HDD vs SSD 이해하기&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://maiboii.github.io/images/image41.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;웨어-레벨링-wear-leveling&#34;&gt;웨어 레벨링 (Wear leveling)&lt;/h3&gt;
+&lt;p&gt;이 드라이브들은 웨어 레벨링(wear leveling)이라는 기술을 사용해. 웨어 레벨링은 기본적으로 이렇게 작동해. 디스크 공간은 블록으로 나눠지고, 블록은 다시 페이지로 나눠져. 마치 책의 챕터가 페이지로 나눠지는 것처럼. 파일을 디스크에 쓰면, 그 파일은 특정 페이지와 블록에 저장돼. HDD에서는 파일을 덮어쓸 때 그냥 그 블록을 덮어쓰기만 하면 되지만, SSD나 USB 드라이브에서는 같은 블록을 계속 지우고 쓰면 그 블록이 닳아서 더 이상 작동하지 않게 돼. 각 블록은 지우고 다시 쓸 수 있는 횟수가 한정돼 있어서, 마치 종이에 계속 글을 쓰고 지우면 결국 종이가 찢어져서 쓸 수 없게 되는 것과 비슷해. 그래서 SSD나 USB 드라이브는 각 블록이 지워지고 다시 쓰여지는 횟수를 비슷하게 유지하려고 해서 드라이브가 최대한 오래 사용할 수 있도록 해. 이게 바로 웨어 레벨링이지.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>번역) 자료 안전하게 백업하기</title>
+      <link>https://maiboii.github.io/post/5_%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Mon, 28 Apr 2025 13:25:34 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/5_%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</guid>
+      <description>&lt;h1 id=&#34;자료-안전하게-백업하기&#34;&gt;자료 안전하게 백업하기&lt;/h1&gt;
+&lt;h2 id=&#34;오프라인-백업&#34;&gt;오프라인 백업&lt;/h2&gt;
+&lt;h3 id=&#34;선택된-파일-백업&#34;&gt;선택된 파일 백업&lt;/h3&gt;
+&lt;h3 id=&#34;전체-디스크시스템-백업&#34;&gt;전체 디스크/시스템 백업&lt;/h3&gt;
+&lt;h2 id=&#34;온라인-백업&#34;&gt;온라인 백업&lt;/h2&gt;
+&lt;h3 id=&#34;파일&#34;&gt;파일&lt;/h3&gt;
+&lt;h3 id=&#34;정보&#34;&gt;정보&lt;/h3&gt;
+&lt;h2 id=&#34;장치-간-파일-동기화&#34;&gt;장치 간 파일 동기화&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>번역) 익명 온라인 신분 만들기</title>
+      <link>https://maiboii.github.io/post/4_%EC%9D%B5%EB%AA%85-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EB%B6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <pubDate>Mon, 28 Apr 2025 13:23:17 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/4_%EC%9D%B5%EB%AA%85-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EB%B6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <description>&lt;h1 id=&#34;익명-온라인-신원-만들기&#34;&gt;익명 온라인 신원 만들기&lt;/h1&gt;
+&lt;h2 id=&#34;익명성-보호를-위한-몇-가지-방법들&#34;&gt;익명성 보호를 위한 몇 가지 방법들&lt;/h2&gt;
+&lt;h3 id=&#34;캡챠&#34;&gt;캡챠&lt;/h3&gt;
+&lt;p&gt;Captcha[^371]는 &amp;ldquo;컴퓨터와 인간을 구분하는 완전 자동화된 공공 튜링 테스트&amp;quot;를 의미해. 이건 웹사이트나 양식을 접근하기 전에 풀어야 하는 튜링 테스트[^372] 퍼즐이야. 대부분 구글의 reCAPTCHA 서비스[^373]와 Cloudflare의 hCaptcha[^374]를 만나게 될 거야. hCaptcha는 그들 자체 메트릭에 따르면 인터넷에서 15%를 차지한다고 해[^375].&lt;/p&gt;
+&lt;p&gt;이 테스트들은 봇과 인간을 구분하는 데 설계되었지만, 동시에 익명성과 개인 사용자가 서비스를 이용하지 못하게 막는 데도 사용돼.&lt;/p&gt;
+&lt;p&gt;VPN이나 Tor를 자주 사용하면 거의 모든 곳에서 캡챠를 자주 마주치게 될 거야[^376]. Tor를 사용할 때는 퍼즐을 모두 풀어도(때론 여러 개를 연속으로 풀어도) 여전히 거부당하는 경우가 많아.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>번역) 보편적인 준비사항</title>
+      <link>https://maiboii.github.io/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</link>
+      <pubDate>Mon, 28 Apr 2025 13:21:07 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</guid>
+      <description>&lt;h1 id=&#34;일반적인-준비-사항&#34;&gt;일반적인 준비 사항&lt;/h1&gt;
+&lt;h2 id=&#34;방식-선택&#34;&gt;방식 선택:&lt;/h2&gt;
+&lt;p&gt;먼저, 너의 기술적/예산적/시간적 리소스에 따라 사용 가능한 옵션을 보여주는 작은 기본 UML 다이어그램이 있어!&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://maiboii.github.io/images/image18.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;시간-제한&#34;&gt;시간 제한&lt;/h3&gt;
+&lt;h3 id=&#34;예산자재-제한&#34;&gt;예산/자재 제한&lt;/h3&gt;
+&lt;h3 id=&#34;필요한-기술&#34;&gt;필요한 기술&lt;/h3&gt;
+&lt;h3 id=&#34;상대방의-고려사항&#34;&gt;상대방의 고려사항&lt;/h3&gt;
+&lt;h2 id=&#34;모든-방식에-대한-준비-단계&#34;&gt;모든 방식에 대한 준비 단계:&lt;/h2&gt;
+&lt;h3 id=&#34;더-나은-비밀번호-사용에-익숙해지기&#34;&gt;더 나은 비밀번호 사용에 익숙해지기&lt;/h3&gt;
+&lt;h3 id=&#34;익명-전화번호-가지기&#34;&gt;익명 전화번호 가지기&lt;/h3&gt;
+&lt;h3 id=&#34;usb-키-가지기&#34;&gt;USB 키 가지기&lt;/h3&gt;
+&lt;h3 id=&#34;안전한-공공-wi-fi-장소-찾기&#34;&gt;안전한 공공 Wi-Fi 장소 찾기&lt;/h3&gt;
+&lt;h2 id=&#34;tor-브라우저-사용하기&#34;&gt;Tor 브라우저 사용하기:&lt;/h2&gt;
+&lt;p&gt;이 가이드는 웹을 익명으로 탐색하는 가장 간단하고 쉬운 방법을 설정하는 데 도움을 줄 거야. 반드시 최고의 방법은 아니고, 아래에는 더 좋은 보안과 다양한 적에 대한 (훨씬) 더 나은 완화 방법을 제공하는 고급 방법들이 있어. 그럼에도 불구하고, 예산, 시간, 기술, 제한된 사용으로 익명으로 자원을 빠르고 간단하게 접근할 수 있는 직관적인 방법이야.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>번역) 온라인에서 너를 특정할 수 있게 하는 요소들</title>
+      <link>https://maiboii.github.io/post/2_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C-%EB%84%88%EB%A5%BC-%ED%8A%B9%EC%A0%95%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-%EC%9A%94%EC%86%8C%EB%93%A4/</link>
+      <pubDate>Mon, 28 Apr 2025 13:18:07 +0900</pubDate>
+      <guid>https://maiboii.github.io/post/2_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C-%EB%84%88%EB%A5%BC-%ED%8A%B9%EC%A0%95%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-%EC%9A%94%EC%86%8C%EB%93%A4/</guid>
+      <description>&lt;h1 id=&#34;온라인에서-너를-특정할-수-있게-하는-요소들&#34;&gt;온라인에서 너를 특정할 수 있게 하는 요소들&lt;/h1&gt;
+&lt;p&gt;브라우저 쿠키와 광고, 이메일, 휴대폰 번호 외의 다양한 방법으로도 사용자를 추적할 수 있어. 모사드나 NSA/FSB만이 널 찾아낼 수 있다고 생각한다면 오산이야.&lt;/p&gt;
+&lt;p&gt;먼저 개인정보 보호 및 보안에 관한 일반적인 리소스를 참고하여 기본적인 사항을 알아보도록 해:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The New Oil*: &lt;a href=&#34;https://thenewoil.org/&#34;&gt;https://thenewoil.org/&lt;/a&gt; &lt;sup&gt;&lt;a href=&#34;https://web.archive.org/web/https://thenewoil.org/&#34;&gt;[Archive.org]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;기술 관련 동영상 *: &lt;a href=&#34;https://www.youtube.com/c/Techlore&#34;&gt;https://www.youtube.com/c/Techlore&lt;/a&gt; &lt;sup&gt;&lt;a href=&#34;https://yewtu.be/c/Techlore&#34;&gt;[Invidious]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;개인정보 보호 가이드: &lt;a href=&#34;https://privacyguides.org/&#34;&gt;https://privacyguides.org/&lt;/a&gt; &lt;sup&gt;&lt;a href=&#34;https://web.archive.org/web/https://privacyguides.org/&#34;&gt;[Archive.org]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;개인정보 보호 도구*: &lt;a href=&#34;https://privacytools.io&#34;&gt;https://privacytools.io&lt;/a&gt; &lt;sup&gt;&lt;a href=&#34;https://web.archive.org/web/https://privacytools.io/&#34;&gt;[Archive.org]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;이러한 웹사이트에는 제휴/후원 콘텐츠 및/또는 상품이 포함될 수 있음. 본 가이드는 어떤 상업적 단체도 보증하지 않으며 어떤 방식으로도 후원하지 않음.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>번역) 온라인 익명성을 위한 히치하이커</title>
-      <link>https://maiboii.github.io/post/%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</link>
+      <link>https://maiboii.github.io/post/1_%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</link>
       <pubDate>Sun, 27 Apr 2025 11:20:55 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</guid>
+      <guid>https://maiboii.github.io/post/1_%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</guid>
       <description>&lt;p align=&#34;center&#34;&gt;
 &lt;img src=&#34;https://maiboii.github.io/images/profile.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
 &lt;/p&gt;
@@ -57,6 +302,13 @@
       <description>&lt;p&gt;아무거나 나오는지&lt;/p&gt;
 &lt;p&gt;으르르릉&lt;/p&gt;
 &lt;h3 id=&#34;아무거나&#34;&gt;아무거나&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://maiboii.github.io/post/references/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maiboii.github.io/post/references/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
