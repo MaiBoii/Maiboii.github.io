@@ -10,9 +10,9 @@
     <atom:link href="https://maiboii.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>온라인 익명성을 위한 히치하이커 (KR)</title>
-      <link>https://maiboii.github.io/post/intro/</link>
+      <link>https://maiboii.github.io/post/%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</link>
       <pubDate>Sun, 27 Apr 2025 11:20:55 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/intro/</guid>
+      <guid>https://maiboii.github.io/post/%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://maiboii.github.io/css/main.css&#34;&gt;
 &lt;p align=&#34;center&#34;&gt;
 &lt;img src=&#34;https://maiboii.github.io/images/profile.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
@@ -35,17 +35,20 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;요구사항-및-제한사항&#34;&gt;요구사항 및 제한사항&lt;/h2&gt;
+&lt;h1 id=&#34;요구사항-및-제한사항&#34;&gt;요구사항 및 제한사항&lt;/h1&gt;
+&lt;h2 id=&#34;요구사항&#34;&gt;요구사항&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;영어 읽을 줄 알 것.&lt;/li&gt;
-&lt;li&gt;법원이 온라인 플랫폼에서 실명 사용의 적법성을 인정한 독일 영주권자(2007년 독일 텔레미디어법 §13 제6조1&#39;2)여야 함. 또는 이 가이드의 적법성을 직접 확인하고 확인할 수 있는 다른 국가의 거주자이어야 함.&lt;/li&gt;
-&lt;li&gt;이 가이드에서는 사용자가 업무용/공유용 기기가 아닌 일부 노트북 컴퓨터 (Windows/Linux/macOS)들을 다룰 수 있으며, 작동 원리에 대한 기본적인 이해가 있다고 가정함.&lt;/li&gt;
-&lt;li&gt;모든 콘텐츠를 살펴보고 싶다면 이 과정을 완료하는 데 몇 주가 걸릴 수 있으니 끈기있게 볼 것.&lt;/li&gt;
+&lt;li&gt;한국말 읽을 줄 알 것.&lt;/li&gt;
+&lt;li&gt;법원이 온라인 플랫폼에서 실명 사용의 적법성을 인정한 독일 영주권자여야 함. 또는 이 가이드의 적법성을 직접 확인하고 확인할 수 있는 다른 국가의 거주자이어야 함.&lt;/li&gt;
+&lt;li&gt;이 가이드에서는 사용자가 업무용/공유용 기기가 아닌 본인 소유의 컴퓨터 (Windows/Linux/macOS)들을 다룰 수 있으며, 작동 원리에 대한 기본적인 이해가 있다고 가정함.&lt;/li&gt;
+&lt;li&gt;모든 내용을 전부 살펴보고 싶다면 몇 주가 걸릴 수 있으니 끈기있게 볼 것.&lt;/li&gt;
 &lt;li&gt;어떤 경로를 선택하느냐에 따라 이 과정에 투자할 수 있는 여유 시간을 확보할 것.&lt;/li&gt;
 &lt;li&gt;많은 참고 자료(반드시 읽어 보기), 가이드(건너뛰지 말기), 튜토리얼(역시 건너뛰지 말기)을 꼼꼼히 읽을 준비를 하기&lt;/li&gt;
 &lt;li&gt;나쁜 맘 먹지 말기. (이번에는 진짜로)&lt;/li&gt;
 &lt;li&gt;빠르고 쉬운 일반적인 길은 없다는 것을 이해하기&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;h2 id=&#34;제한사항&#34;&gt;제한사항&lt;/h2&gt;
+&lt;p&gt;해당 가이드를&lt;/p&gt;</description>
     </item>
     <item>
       <title>첫_글</title>
