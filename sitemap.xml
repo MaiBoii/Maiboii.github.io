@@ -2,59 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maiboii.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-04-28T14:21:45+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-04-28T14:21:45+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_new/</loc>
+    <loc>http://localhost:1313/post/%EB%B6%80%EB%A1%9D_new/</loc>
     <lastmod>2025-04-28T14:21:45+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_a-z-/</loc>
+    <loc>http://localhost:1313/post/%EB%B6%80%EB%A1%9D_a-z-/</loc>
     <lastmod>2025-04-28T14:14:06+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/%EB%A7%88%EC%B9%98%EB%A9%B0/</loc>
+    <loc>http://localhost:1313/post/%EB%A7%88%EC%B9%98%EB%A9%B0/</loc>
     <lastmod>2025-04-28T14:12:11+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/7_%EB%8C%80%EC%B2%98/</loc>
+    <loc>http://localhost:1313/post/7_%EB%8C%80%EC%B2%98/</loc>
     <lastmod>2025-04-28T14:09:23+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/7_opsec/</loc>
+    <loc>http://localhost:1313/post/7_opsec/</loc>
     <lastmod>2025-04-28T13:55:27+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/%EC%A0%80%EC%88%98%EC%A4%80/</loc>
+    <loc>http://localhost:1313/post/%EC%A0%80%EC%88%98%EC%A4%80/</loc>
     <lastmod>2025-04-28T13:45:20+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/6_%ED%9D%94%EC%A0%81-%EC%A7%80%EC%9A%B0%EA%B8%B0/</loc>
+    <loc>http://localhost:1313/post/6_%ED%9D%94%EC%A0%81-%EC%A7%80%EC%9A%B0%EA%B8%B0/</loc>
     <lastmod>2025-04-28T13:28:44+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/5_%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</loc>
+    <loc>http://localhost:1313/post/5_%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</loc>
     <lastmod>2025-04-28T13:25:34+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/4_%EC%9D%B5%EB%AA%85-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EB%B6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
+    <loc>http://localhost:1313/categories/category-a/</loc>
     <lastmod>2025-04-28T13:23:17+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</loc>
+    <loc>http://localhost:1313/categories/category-b/</loc>
+    <lastmod>2025-04-28T13:23:17+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-28T13:23:17+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/translate/</loc>
+    <lastmod>2025-04-28T13:23:17+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/4_%EC%9D%B5%EB%AA%85-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EB%B6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
+    <lastmod>2025-04-28T13:23:17+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</loc>
     <lastmod>2025-04-28T13:21:07+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/2_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C-%EB%84%88%EB%A5%BC-%ED%8A%B9%EC%A0%95%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-%EC%9A%94%EC%86%8C%EB%93%A4/</loc>
+    <loc>http://localhost:1313/post/2_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C-%EB%84%88%EB%A5%BC-%ED%8A%B9%EC%A0%95%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-%EC%9A%94%EC%86%8C%EB%93%A4/</loc>
     <lastmod>2025-04-28T13:18:07+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/1_%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</loc>
+    <loc>http://localhost:1313/post/1_%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</loc>
     <lastmod>2025-04-27T11:20:55+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/%EC%B2%AB_%EA%B8%80/</loc>
+    <loc>http://localhost:1313/post/%EC%B2%AB_%EA%B8%80/</loc>
     <lastmod>2025-04-23T12:23:49+09:00</lastmod>
   </url><url>
-    <loc>https://maiboii.github.io/post/references/</loc>
+    <loc>http://localhost:1313/post/references/</loc>
   </url><url>
-    <loc>https://maiboii.github.io/archive/</loc>
+    <loc>http://localhost:1313/archive/</loc>
   </url><url>
-    <loc>https://maiboii.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://maiboii.github.io/search/</loc>
-  </url><url>
-    <loc>https://maiboii.github.io/tags/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

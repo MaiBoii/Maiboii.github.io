@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MaiBoii</title>
-    <link>https://maiboii.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on MaiBoii</description>
     <generator>Hugo -- 0.146.7</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Apr 2025 14:21:45 +0900</lastBuildDate>
-    <atom:link href="https://maiboii.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>번역) 부록 (A1~)</title>
-      <link>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_new/</link>
+      <link>http://localhost:1313/post/%EB%B6%80%EB%A1%9D_new/</link>
       <pubDate>Mon, 28 Apr 2025 14:21:45 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_new/</guid>
+      <guid>http://localhost:1313/post/%EB%B6%80%EB%A1%9D_new/</guid>
       <description>&lt;h1 id=&#34;부록-a1-추천-vps-호스팅-제공업체&#34;&gt;부록 A1: 추천 VPS 호스팅 제공업체&lt;/h1&gt;
 &lt;h1 id=&#34;부록-a2-비밀번호-및-암호구문에-대한-지침&#34;&gt;부록 A2: 비밀번호 및 암호구문에 대한 지침&lt;/h1&gt;
 &lt;h1 id=&#34;부록-a3-검색-엔진&#34;&gt;부록 A3: 검색 엔진&lt;/h1&gt;
@@ -53,9 +53,9 @@
     </item>
     <item>
       <title>번역) 부록 A-Z</title>
-      <link>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_a-z-/</link>
+      <link>http://localhost:1313/post/%EB%B6%80%EB%A1%9D_a-z-/</link>
       <pubDate>Mon, 28 Apr 2025 14:14:06 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/%EB%B6%80%EB%A1%9D_a-z-/</guid>
+      <guid>http://localhost:1313/post/%EB%B6%80%EB%A1%9D_a-z-/</guid>
       <description>&lt;h1 id=&#34;부록-a-windows-설치&#34;&gt;부록 A: Windows 설치&lt;/h1&gt;
 &lt;h2 id=&#34;설치&#34;&gt;설치&lt;/h2&gt;
 &lt;h2 id=&#34;개인정보-보호-설정&#34;&gt;개인정보 보호 설정&lt;/h2&gt;
@@ -137,54 +137,54 @@
     </item>
     <item>
       <title>번역) 마치며</title>
-      <link>https://maiboii.github.io/post/%EB%A7%88%EC%B9%98%EB%A9%B0/</link>
+      <link>http://localhost:1313/post/%EB%A7%88%EC%B9%98%EB%A9%B0/</link>
       <pubDate>Mon, 28 Apr 2025 14:12:11 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/%EB%A7%88%EC%B9%98%EB%A9%B0/</guid>
+      <guid>http://localhost:1313/post/%EB%A7%88%EC%B9%98%EB%A9%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>번역) 변조 또는 검색이 감지된 경우 대처 방법</title>
-      <link>https://maiboii.github.io/post/7_%EB%8C%80%EC%B2%98/</link>
+      <link>http://localhost:1313/post/7_%EB%8C%80%EC%B2%98/</link>
       <pubDate>Mon, 28 Apr 2025 14:09:23 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/7_%EB%8C%80%EC%B2%98/</guid>
+      <guid>http://localhost:1313/post/7_%EB%8C%80%EC%B2%98/</guid>
       <description></description>
     </item>
     <item>
       <title>번역) OPSEC에 대한 단상</title>
-      <link>https://maiboii.github.io/post/7_opsec/</link>
+      <link>http://localhost:1313/post/7_opsec/</link>
       <pubDate>Mon, 28 Apr 2025 13:55:27 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/7_opsec/</guid>
+      <guid>http://localhost:1313/post/7_opsec/</guid>
       <description>&lt;h1 id=&#34;opsec에-대한-생각&#34;&gt;OPSEC에 대한 생각&lt;/h1&gt;
 &lt;p&gt;OPSEC이 뭐냐고? OPSEC은 &lt;strong&gt;Operations Security&lt;/strong&gt;(작전 보안)의 줄임말이야. 간단히 말하면, &amp;ldquo;OPSEC은 더 큰 그림을 그릴 수 있는 개별 데이터를 보호하는 과정&amp;quot;이야.&lt;/p&gt;
 &lt;p&gt;여기서 중요한 단계는, 아마도 가장 쉬운 단계일 텐데, 영화 &lt;strong&gt;파이트 클럽&lt;/strong&gt;에서 배울 수 있는 교훈이 있어. &lt;strong&gt;첫 번째 규칙은 절대 파이트 클럽에 대해 말하지 않는 거야.&lt;/strong&gt; 이 원칙은 너의 온라인 보안과 OPSEC에도 적용돼. 이 가이드를 천천히 읽으면 인터넷에서 더 안전한 경험을 할 수 있는 도구와 지식을 얻게 될 거야. 이 가이드는 적들을 좌절시킬 수 있는 방법들을 알려줄 거야. 운영 체제를 보호하고 중요한 정보를 잠그는 방법을 배우고, 미션을 성공적으로 수행할 수 있을 거야. 하지만 기억해야 할 점은 한 가지 규칙인데, 바로 &lt;strong&gt;작전 세부 사항에 대해 말하지 않는 거야.&lt;/strong&gt; 가장 큰 적의 위협은 &lt;strong&gt;OSINT&lt;/strong&gt;(개방형 소스 정보 수집)라는 걸 잊지 말자. 적은 네가 온라인과 현실에서 하는 활동을 바탕으로 정보를 모을 거야.&lt;/p&gt;</description>
     </item>
     <item>
       <title>번역) 몇 가지 저수준 기술과 전통적인 트릭</title>
-      <link>https://maiboii.github.io/post/%EC%A0%80%EC%88%98%EC%A4%80/</link>
+      <link>http://localhost:1313/post/%EC%A0%80%EC%88%98%EC%A4%80/</link>
       <pubDate>Mon, 28 Apr 2025 13:45:20 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/%EC%A0%80%EC%88%98%EC%A4%80/</guid>
+      <guid>http://localhost:1313/post/%EC%A0%80%EC%88%98%EC%A4%80/</guid>
       <description>&lt;h2 id=&#34;메시지-숨기기&#34;&gt;메시지 숨기기&lt;/h2&gt;
 &lt;p&gt;보안을 강화하려는 기술들(암호화, 그럴듯한 부인, VPN, Tor, 안전한 운영 체제 등)을 사용하면 오히려 의심을 살 수 있다는 점을 기억해야 해. 이러한 방법들을 사용한다는 건 &amp;ldquo;나에게 숨길 것이 있다&amp;quot;는 걸 공개적으로 말하는 것과 같을 수 있어. 이로 인해 어떤 적대적인 사람들은 더 많은 조사나 감시를 시작할 수 있지.&lt;/p&gt;
 &lt;p&gt;그래서 보안을 유지하면서도 사람들에게 메시지를 전달할 방법이 있어. 이 방법들은 수십 년 동안 다양한 조직에서 사용되었고, 안전한 기술을 사용해서 주목받지 않으면서 민감한 정보를 전달하고 싶을 때 유용할 수 있어.&lt;/p&gt;</description>
     </item>
     <item>
       <title>번역) 디지털 흔적 지우기</title>
-      <link>https://maiboii.github.io/post/6_%ED%9D%94%EC%A0%81-%EC%A7%80%EC%9A%B0%EA%B8%B0/</link>
+      <link>http://localhost:1313/post/6_%ED%9D%94%EC%A0%81-%EC%A7%80%EC%9A%B0%EA%B8%B0/</link>
       <pubDate>Mon, 28 Apr 2025 13:28:44 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/6_%ED%9D%94%EC%A0%81-%EC%A7%80%EC%9A%B0%EA%B8%B0/</guid>
+      <guid>http://localhost:1313/post/6_%ED%9D%94%EC%A0%81-%EC%A7%80%EC%9A%B0%EA%B8%B0/</guid>
       <description>&lt;h1 id=&#34;디지털-흔적-지우기&#34;&gt;디지털 흔적 지우기&lt;/h1&gt;
 &lt;h2 id=&#34;hdd-vs-ssd-이해하기&#34;&gt;HDD vs SSD 이해하기&lt;/h2&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://maiboii.github.io/images/image41.png&#34; alt=&#34;Image Alt Text&#34;/&gt;
+&lt;img src=&#34;http://localhost:1313/images/image41.png&#34; alt=&#34;Image Alt Text&#34;/&gt;
 &lt;/p&gt;
 &lt;p&gt;HDD 노트북을 초기화하는 건 비교적 간단해. 데이터들이 자기 플래터 내 정확한 위치에 기록되거든(그래서 하드디스크라고 불려). OS는 그 위치를 정확히 알고 있어서, 그 위치를 삭제하거나 덮어쓰는 방식으로 보안 삭제할 수 있어. 그냥 그 위치를 여러 번 덮어쓰면 흔적 없이 삭제되지.&lt;/p&gt;
 &lt;p&gt;반면 SSD 드라이브는 그런 방식이 좀 더 복잡해. 드라이브가 수명을 늘리고 성능을 높이기 위한 여러 내부 메커니즘을 사용하거든. 그중에서 특히 중요한 세 가지 과정이 있어. SSD 드라이브는 크게 두 가지 종류로 나뉘는데:&lt;/p&gt;</description>
     </item>
     <item>
       <title>번역) 자료 안전하게 백업하기</title>
-      <link>https://maiboii.github.io/post/5_%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</link>
+      <link>http://localhost:1313/post/5_%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</link>
       <pubDate>Mon, 28 Apr 2025 13:25:34 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/5_%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</guid>
+      <guid>http://localhost:1313/post/5_%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%B0%B1%EC%97%85%ED%95%98%EA%B8%B0/</guid>
       <description>&lt;h1 id=&#34;자료-안전하게-백업하기&#34;&gt;자료 안전하게 백업하기&lt;/h1&gt;
 &lt;p&gt;그럴듯한 부인 가능성이 있는 암호화된 파일 컨테이너(그 안에 숨겨진 컨테이너)를 안전 예방 조치 없이 대부분의 클라우드 서비스(iCloud, Google Drive, OneDrive, Dropbox)에 절대 업로드하지 마세요. 대부분의 클라우드 서비스는 파일의 백업/버전을 보관하며, 암호화된 컨테이너의 이러한 백업/버전은 숨겨진 컨테이너의 존재를 증명하기 위한 차등 분석에 사용될 수 있기 때문입니다.&lt;/p&gt;
 &lt;p&gt;대신 이 가이드에서는 자료를 안전하게 백업할 수 있는 다른 방법을 추천합니다.&lt;/p&gt;
@@ -193,9 +193,9 @@
     </item>
     <item>
       <title>번역) 익명 온라인 신분 만들기</title>
-      <link>https://maiboii.github.io/post/4_%EC%9D%B5%EB%AA%85-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EB%B6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <link>http://localhost:1313/post/4_%EC%9D%B5%EB%AA%85-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EB%B6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
       <pubDate>Mon, 28 Apr 2025 13:23:17 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/4_%EC%9D%B5%EB%AA%85-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EB%B6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <guid>http://localhost:1313/post/4_%EC%9D%B5%EB%AA%85-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EB%B6%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
       <description>&lt;h1 id=&#34;익명-온라인-신원-만들기&#34;&gt;익명 온라인 신원 만들기&lt;/h1&gt;
 &lt;h2 id=&#34;익명성-보호를-위한-몇-가지-방법들&#34;&gt;익명성 보호를 위한 몇 가지 방법들&lt;/h2&gt;
 &lt;h3 id=&#34;캡챠&#34;&gt;캡챠&lt;/h3&gt;
@@ -205,14 +205,14 @@
     </item>
     <item>
       <title>번역) 보편적인 준비사항</title>
-      <link>https://maiboii.github.io/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</link>
+      <link>http://localhost:1313/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</link>
       <pubDate>Mon, 28 Apr 2025 13:21:07 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</guid>
+      <guid>http://localhost:1313/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</guid>
       <description>&lt;h1 id=&#34;일반적인-준비-사항&#34;&gt;일반적인 준비 사항&lt;/h1&gt;
 &lt;h2 id=&#34;방식-선택&#34;&gt;방식 선택:&lt;/h2&gt;
 &lt;p&gt;먼저, 너의 기술적/예산적/시간적 리소스에 따라 사용 가능한 옵션을 보여주는 작은 기본 UML 다이어그램이 있어!&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://maiboii.github.io/images/image18.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/images/image18.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;시간-제한&#34;&gt;시간 제한&lt;/h3&gt;
 &lt;h3 id=&#34;예산자재-제한&#34;&gt;예산/자재 제한&lt;/h3&gt;
@@ -228,9 +228,9 @@
     </item>
     <item>
       <title>번역) 온라인에서 너를 특정할 수 있게 하는 요소들</title>
-      <link>https://maiboii.github.io/post/2_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C-%EB%84%88%EB%A5%BC-%ED%8A%B9%EC%A0%95%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-%EC%9A%94%EC%86%8C%EB%93%A4/</link>
+      <link>http://localhost:1313/post/2_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C-%EB%84%88%EB%A5%BC-%ED%8A%B9%EC%A0%95%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-%EC%9A%94%EC%86%8C%EB%93%A4/</link>
       <pubDate>Mon, 28 Apr 2025 13:18:07 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/2_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C-%EB%84%88%EB%A5%BC-%ED%8A%B9%EC%A0%95%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-%EC%9A%94%EC%86%8C%EB%93%A4/</guid>
+      <guid>http://localhost:1313/post/2_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%97%90%EC%84%9C-%EB%84%88%EB%A5%BC-%ED%8A%B9%EC%A0%95%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-%EC%9A%94%EC%86%8C%EB%93%A4/</guid>
       <description>&lt;h1 id=&#34;온라인에서-너를-특정할-수-있게-하는-요소들&#34;&gt;온라인에서 너를 특정할 수 있게 하는 요소들&lt;/h1&gt;
 &lt;p&gt;브라우저 쿠키와 광고, 이메일, 휴대폰 번호 외의 다양한 방법으로도 사용자를 추적할 수 있어. 모사드나 NSA/FSB만이 널 찾아낼 수 있다고 생각한다면 오산이야.&lt;/p&gt;
 &lt;p&gt;먼저 개인정보 보호 및 보안에 관한 일반적인 리소스를 참고하여 기본적인 사항을 알아보도록 해:&lt;/p&gt;
@@ -252,11 +252,11 @@
     </item>
     <item>
       <title>번역) 온라인 익명성을 위한 히치하이커</title>
-      <link>https://maiboii.github.io/post/1_%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</link>
+      <link>http://localhost:1313/post/1_%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</link>
       <pubDate>Sun, 27 Apr 2025 11:20:55 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/1_%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</guid>
+      <guid>http://localhost:1313/post/1_%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%9D%B5%EB%AA%85%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%9E%88%EC%B9%98%ED%95%98%EC%9D%B4%EC%BB%A4-kr/</guid>
       <description>&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://maiboii.github.io/images/profile.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/images/profile.png&#34; alt=&#34;Image Alt Text&#34; class=&#34;center-image&#34; /&gt;
 &lt;/p&gt;
 &lt;p&gt;이 가이드는 다양한 방법으로 읽을 수 있어.&lt;/p&gt;
 &lt;ul&gt;
@@ -293,25 +293,25 @@
     </item>
     <item>
       <title>첫_글</title>
-      <link>https://maiboii.github.io/post/%EC%B2%AB_%EA%B8%80/</link>
+      <link>http://localhost:1313/post/%EC%B2%AB_%EA%B8%80/</link>
       <pubDate>Wed, 23 Apr 2025 12:23:49 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/%EC%B2%AB_%EA%B8%80/</guid>
+      <guid>http://localhost:1313/post/%EC%B2%AB_%EA%B8%80/</guid>
       <description>&lt;p&gt;아무거나 나오는지&lt;/p&gt;
 &lt;p&gt;으르르릉&lt;/p&gt;
 &lt;h3 id=&#34;아무거나&#34;&gt;아무거나&lt;/h3&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://maiboii.github.io/post/references/</link>
+      <link>http://localhost:1313/post/references/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://maiboii.github.io/post/references/</guid>
+      <guid>http://localhost:1313/post/references/</guid>
       <description></description>
     </item>
     <item>
       <title>Categories</title>
-      <link>https://maiboii.github.io/categories/</link>
+      <link>http://localhost:1313/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://maiboii.github.io/categories/</guid>
+      <guid>http://localhost:1313/categories/</guid>
       <description>categories</description>
     </item>
   </channel>
