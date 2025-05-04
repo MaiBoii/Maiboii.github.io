@@ -163,9 +163,9 @@
     </item>
     <item>
       <title>번역) 몇 가지 저수준 기술과 전통적인 트릭</title>
-      <link>https://maiboii.github.io/post/%EC%A0%80%EC%88%98%EC%A4%80/</link>
+      <link>https://maiboii.github.io/post/7_%EC%A0%80%EC%88%98%EC%A4%80/</link>
       <pubDate>Mon, 28 Apr 2025 13:45:20 +0900</pubDate>
-      <guid>https://maiboii.github.io/post/%EC%A0%80%EC%88%98%EC%A4%80/</guid>
+      <guid>https://maiboii.github.io/post/7_%EC%A0%80%EC%88%98%EC%A4%80/</guid>
       <description>&lt;h2 id=&#34;메시지-숨기기&#34;&gt;메시지 숨기기&lt;/h2&gt;
 &lt;p&gt;보안을 강화하려는 기술들(암호화, 그럴듯한 부인, VPN, Tor, 안전한 운영 체제 등)을 사용하면 오히려 의심을 살 수 있다는 점을 기억해야 해. 이러한 방법들을 사용한다는 건 &amp;ldquo;나에게 숨길 것이 있다&amp;quot;는 걸 공개적으로 말하는 것과 같을 수 있어. 이로 인해 어떤 적대적인 사람들은 더 많은 조사나 감시를 시작할 수 있지.&lt;/p&gt;
 &lt;p&gt;그래서 보안을 유지하면서도 사람들에게 메시지를 전달할 방법이 있어. 이 방법들은 수십 년 동안 다양한 조직에서 사용되었고, 안전한 기술을 사용해서 주목받지 않으면서 민감한 정보를 전달하고 싶을 때 유용할 수 있어.&lt;/p&gt;</description>
@@ -207,7 +207,7 @@
 &lt;p&gt;VPN이나 Tor를 자주 사용하면 거의 모든 곳에서 캡챠를 자주 마주치게 될 거야[^376]. Tor를 사용할 때는 퍼즐을 모두 풀어도(때론 여러 개를 연속으로 풀어도) 여전히 거부당하는 경우가 많아.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>번역) 보편적인 준비사항</title>
+      <title>번역) 일반적인 준비사항</title>
       <link>https://maiboii.github.io/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</link>
       <pubDate>Mon, 28 Apr 2025 13:21:07 +0900</pubDate>
       <guid>https://maiboii.github.io/post/3_%EB%B3%B4%ED%8E%B8%EC%A0%81%EC%9D%B8-%EC%A4%80%EB%B9%84%EC%82%AC%ED%95%AD/</guid>
